@@ -11,30 +11,30 @@ This humble particle simulator aspires to demonstrate some physical laws as emer
 
 ## Preamble
 
-I am not a physicist, neither mathematician, I am just a programmer. I believe that laws of nature must be reducible to a very simple set of rules - with proper formalism. In my view, the current frontier physics and mathematics is super complex and generates confusions, misunderstandings and paradoxes. Rather than trying to understand the current theories, I am trying to build a simple model of the universe from scratch. I am not trying to prove or disprove anything, just to see if I can get some of the known physical laws as emergent properties from a few simple rules.
+I am neither physicist, nor mathematician, I am just a programmer. Yet I believe that laws of nature must be reducible to a very simple set of rules - with proper formalism. In my view, the current frontier physics and mathematics is super complex and generates confusions, misunderstandings and paradoxes. Rather than trying to understand the current theories, I am trying to build a simple model of the universe from scratch. I am not trying to prove or disprove anything, just to see if I can get some of the known physical laws as emergent properties from a few simple rules.
 
 ## Inspirations and principles behind
 
-The simulation doesn't work with fields, but each particle has its own reference frame and the information is delivered from linked particle to the particle along the causal link at finite speed within that frame. Postulates I follow are:
+The simulation doesn't work with fields, but each particle has its own reference frame and the information from other particles is delivered to the particle along the causal link at finite speed within that frame. Postulates I follow are:
 
 - Causality is fundamental and speed of causality is constant and finite.
-- Everything only exists relative to eveyryhing else. Without interaction, there is no existence in spacetime.
+- Everything only exists in relation to eveyryhing else. Without relation, there is no existence in spacetime and loses meaning.
 - Block universe doesn't exist and the future is not determined. Observers can't agree on simultaneity.
 - Time is not intertwined with space, rather it's just a metric of interaction speed.
-- Field requires its own reference frame. The notion of field is a confusing mathematical abstraction.
+- A "field" of any kind requires its own, independent reference frame. Therefore, notion of field is a confusing mathematical abstraction.
 
 ## Expected outcomes
 
 ### Must have: SPECIAL RELATIVITY and ELECTROMAGNETISM
 
-- Electrostatic force is fundamental property of the particle and its chage, and the action quanta are delivered along the causal link.
-- Time dilation and length contraction are emergent properties of the particles and their causal interactions.
-- Magnetism is a time rotation of the electrostatic force vector, when observed as contribution from every nearby moving charged particle.
-- Light and other electromagnetic waves are emergent properties of the particles and their causal interactions. The wave propagation speed is the result of vectorizing together with advanced and retarded quanta delivery along the causal links.
+- Electrostatic force is a fundamental property of the particle and its charge, and the action quanta are distributed across causal links.
+- Time dilation and length contraction are emergent phenomena observed within the particles and their causal interactions, due to the finite speed of causality.
+- Magnetism is a time-dependent rotation of the electrostatic force vector, when observed as contribution from every nearby moving charged particle.
+- Light and other electromagnetic waves are emergent properties of the particles and their causal interactions. The wave propagation results from combination of vector actions and advanced/retarded wavefront delivery along the causal links.
 
 ### Nice to get: INERTIA
 
-- Inertia is emergent phenomenon from the particles and their interactions, and it follows the same rules as the electrostatic force.
+- Inertia is an emergent phenomenon from the particles and their interactions, and it follows the same rules as the electrostatic force.
 - The particle speed is only determined in relation to other particles through causal links. The particle has no hidden variable to hold its momentum.
 - Mach's principle: The inertia of a particle is determined by the distribution of all other particles in the universe.
 

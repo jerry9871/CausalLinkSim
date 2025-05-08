@@ -54,12 +54,17 @@ The simulation doesn't work with fields, but each particle has its own reference
 
 ---
 
-## Achievemnts
+## Achievemnts to this date
 
 [*] SPECIAL RELATIVITY, ELECTROMAGNETISM
 [ ] INERTIA
 [ ] GRAVITY
 [ ] QUANTUM MECHANICS
+
+## Acknowledgements
+
+**Channels and podcasts:** Independent Physics, Dialect, Chris The Brain, Curt Jaimungal, Vsauce, Veritasium, 3Blue1Brown, Kurzgesagt, PBS Space Time
+**Current physicists:** Sabine Hossenfelder, Roger Penrose, Brian Greene, Ruth Kastner, Jacob Barandes
 
 ## License
 
@@ -69,10 +74,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Name:** Jaromir Dvorak
 **Email:** jery9871@gmail.com
-
----
-
-## Acknowledgements
-
-**Channels and podcasts:** Independent Physics, Dialect, Chris The Brain, Curt Jaimungal, Vsauce, Veritasium, 3Blue1Brown, Kurzgesagt, PBS Space Time
-**Current physicists:** Sabine Hossenfelder, Roger Penrose, Brian Greene, Ruth Kastner, Jacob Barandes

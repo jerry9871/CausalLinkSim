@@ -23,7 +23,7 @@ The simulation doesn't work with fields, but each particle has its own reference
 - Time is not intertwined with space, rather it's just a metric of interaction speed.
 - A "field" of any kind requires its own, independent reference frame. Therefore, notion of field is a confusing mathematical abstraction.
 
-## Expected outcomes
+## Expected outcomes (wish list)
 
 ### Must have: SPECIAL RELATIVITY and ELECTROMAGNETISM
 
@@ -68,7 +68,7 @@ Jaromir Dvorak, jery9871@gmail.com
 
 ---
 
-## What the sim is able to demonstrate now
+## What the sim is able to demonstrate now (milestones)
 
 - [x] SPECIAL RELATIVITY and ELECTROMAGNETISM
 - [ ] INERTIA

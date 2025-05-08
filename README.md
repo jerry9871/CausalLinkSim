@@ -1,6 +1,6 @@
 # CausalLinkSim
 
-This humble particle simulator aspires to demonstrate some physical laws as emergent properties from a few, simple principles.
+This humble particle simulator aspires to demonstrate some physical laws as emergent properties from a few, simple interaction principles.
 
 ## How to build and run (Windows)
 
@@ -11,7 +11,7 @@ This humble particle simulator aspires to demonstrate some physical laws as emer
 
 ## Preamble
 
-I am not a physicist, neither mathematician, I am just a programmer. However, I am curious and I believe that laws of nature must be reducible to a very simple set of rules - with proper formalism. However, the current frontier physics and mathematics is super complex and generates confusions, misunderstandings and paradoxes.
+I am not a physicist, neither mathematician, I am just a programmer. I believe that laws of nature must be reducible to a very simple set of rules - with proper formalism. In my view, the current frontier physics and mathematics is super complex and generates confusions, misunderstandings and paradoxes. Rather than trying to understand the current theories, I am trying to build a simple model of the universe from scratch. I am not trying to prove or disprove anything, just to see if I can get some of the known physical laws as emergent properties from a few simple rules.
 
 ## Inspirations and principles behind
 
@@ -23,7 +23,7 @@ The simulation doesn't work with fields, but each particle has its own reference
 - Time is not intertwined with space, rather it's just a metric of interaction speed.
 - Field requires its own reference frame. The notion of field is a confusing mathematical abstraction.
 
-## Outcomes
+## Expected outcomes
 
 ### Must have: SPECIAL RELATIVITY, ELECTROMAGNETISM
 
@@ -44,10 +44,35 @@ The simulation doesn't work with fields, but each particle has its own reference
 - Space density gradient causes the particles to move towards the denser space. Acceleration makes the object to experience more space gradient in the direction of accleration. This is the alternate explanation for the Einstein's equivalence principle.
 - Dark matter and dark energy are apparent and the observed effects stems from misunderstandings of how inertia and gravity works.
 
-### Super super wild and nice to get: QUANTUM MECHANICS
+### Super wild and nice to get: QUANTUM MECHANICS
 
-- The particle is not a point, but a potentiality for interaction. Causal link is as fundamental as the particle itself.
+- The particle is not a point, but a potentiality for interaction. Causal link is as fundamental as the particle itself, or more.
 - Spacetime is a container where the particles can be observed, possibly emerging from the quantum substrate where also the causal links live.
 - Transactional interpretation of quantum mechanics ?
 - Do the quanta traveling across causal links cause the quantization in spacetime we observe ?
 - Pure speculation: Universe "optimizes" the interaction between particles, so irrelevant causal links are not evaluated. We invented wave functions and Schrodinger equation - to describe the potentiality, but it is just another confusing mathematical abstraction. When the universe's substrate is forced to establish a causal link from one enclosed system to another, this is what we call observation and when wave function collapse happens.
+
+---
+
+## Achievemnts
+
+[*] SPECIAL RELATIVITY, ELECTROMAGNETISM
+[ ] INERTIA
+[ ] GRAVITY
+[ ] QUANTUM MECHANICS
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+**Name:** Jaromir Dvorak
+**Email:** jery9871@gmail.com
+
+---
+
+## Acknowledgements
+
+**Channels and podcasts:** Independent Physics, Dialect, Chris The Brain, Curt Jaimungal, Vsauce, Veritasium, 3Blue1Brown, Kurzgesagt, PBS Space Time
+**Current physicists:** Sabine Hossenfelder, Roger Penrose, Brian Greene, Ruth Kastner, Jacob Barandes

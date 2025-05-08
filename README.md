@@ -18,7 +18,7 @@ I am neither physicist, nor mathematician, I am just a programmer. Yet I believe
 The simulation doesn't work with fields, but each particle has its own reference frame and the information from other particles is delivered to the particle along the causal link at finite speed within that frame. Postulates I follow are:
 
 - Causality is fundamental and speed of causality is constant and finite.
-- Everything only exists in relation to eveyryhing else. Without relation, there is no existence in spacetime and loses meaning.
+- Everything only exists in relation to eveyryhing else. Without relation, there is no existence in spacetime and existence itself loses meaning.
 - Block universe doesn't exist and the future is not determined. Observers can't agree on simultaneity.
 - Time is not intertwined with space, rather it's just a metric of interaction speed.
 - A "field" of any kind requires its own, independent reference frame. Therefore, notion of field is a confusing mathematical abstraction.
@@ -40,7 +40,7 @@ The simulation doesn't work with fields, but each particle has its own reference
 
 ### Super nice to get: GENERAL RELATIVITY and GRAVITY
 
-- Curvature of spacetime doesn't need to include time, just space. My belief is that replacing 4D spacetime manifold with "space density" - 3D space manifold, will preserve all the GR/SR effects. There is just more space around heavier objects, which causes the particles to move slower from external observer's perspective.
+- Curvature of spacetime doesn't need to include time, just space. My belief is that replacing 4D spacetime manifold with "space density" - 3D space manifold, will preserve all the GR/SR effects. There is just more space around massive objects, which causes the nearby particles to move slower from external observer's perspective.
 - Space density gradient around massive objects is equivalent to acceleration, because acceleration makes the object to experience space gradient in the direction of accleration. This is the alternate explanation for the Einstein's equivalence principle.
 - Acceleration between two particles makes a wavefront in their causal link. If the causal link goes through an event horizon, the wavefront is steeper than the speed of causality, and the causal link tears down.
 - Dark matter and dark energy are apparent and the observed effects stems from misunderstandings of how inertia and gravity works.

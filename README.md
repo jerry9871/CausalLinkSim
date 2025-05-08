@@ -27,7 +27,7 @@ The simulation doesn't work with fields, but each particle has its own reference
 
 ### Nice to get: INERTIA
 
-- Inertia is emergent properties of the particles and their interactions, and it follows the same rules as the electrostatic force.
+- Inertia is emergent phenomenon from the particles and their interactions, and it follows the same rules as the electrostatic force.
 - The particle speed in relative to other particles is determined only by the causal links. The particle has no hidden variable to hold the momentum.
 - Mach's principle: The inertia of a particle is determined by the distribution of all other particles in the universe.
 
@@ -43,4 +43,4 @@ The simulation doesn't work with fields, but each particle has its own reference
 - Spacetime is a container where the particles can be observed, possibly emerging from the quantum substrate where also the causal links live.
 - Transactional interpretation of quantum mechanics ?
 - Do the quanta traveling across causal links cause the quantization in spacetime we observe ?
-- Pure speculation: Universe "optimizes" the interaction between particles, so distant causal links are not evaluated. That's why we invented wave functions and Schrodinger equation - to describe the potentiality. When universe's substrate is forced to establish a causal link to an external system, this is when the observation and wave function collapse happens.
+- Pure speculation: Universe "optimizes" the interaction between particles, so irrelevant causal links are not evaluated. We invented wave functions and Schrodinger equation - to describe the potentiality, but it is just another confusing mathematical abstraction. When the universe's substrate is forced to establish a causal link from one enclosed system to another, this is what we call observation and when wave function collapse happens.

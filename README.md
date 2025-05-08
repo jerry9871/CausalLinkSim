@@ -25,7 +25,7 @@ The simulation doesn't work with fields, but each particle has its own reference
 
 ## Expected outcomes
 
-### Must have: SPECIAL RELATIVITY, ELECTROMAGNETISM
+### Must have: SPECIAL RELATIVITY and ELECTROMAGNETISM
 
 - Electrostatic force is fundamental property of the particle and its chage, and the action quanta are delivered along the causal link.
 - Time dilation and length contraction are emergent properties of the particles and their causal interactions.
@@ -38,10 +38,11 @@ The simulation doesn't work with fields, but each particle has its own reference
 - The particle speed is only determined in relation to other particles through causal links. The particle has no hidden variable to hold its momentum.
 - Mach's principle: The inertia of a particle is determined by the distribution of all other particles in the universe.
 
-### Super nice to get: GRAVITY
+### Super nice to get: GENERAL RELATIVITY and GRAVITY
 
 - Curvature of spacetime doesn't need to include time, just space. My belief is that replacing 4D spacetime manifold with "space density" - 3D space manifold, will preserve all the GR/SR effects. There is just more space around heavier objects, which causes the particles to move slower from external observer's perspective.
 - Space density gradient around massive objects is equivalent to acceleration, because acceleration makes the object to experience space gradient in the direction of accleration. This is the alternate explanation for the Einstein's equivalence principle.
+- Acceleration between two particles makes a wavefront in their causal link. If the causal link goes through an event horizon, the wavefront is steeper than the speed of causality, and the causal link tears down.
 - Dark matter and dark energy are apparent and the observed effects stems from misunderstandings of how inertia and gravity works.
 
 ### Super wild and nice to get: QUANTUM MECHANICS
@@ -69,8 +70,7 @@ Jaromir Dvorak, jery9871@gmail.com
 
 ## What the sim is able to demonstrate now
 
-- [x] ELECTROMAGNETISM
-- [x] SPECIAL RELATIVITY
+- [x] SPECIAL RELATIVITY and ELECTROMAGNETISM
 - [ ] INERTIA
-- [ ] GRAVITY
+- [ ] GENERAL RELATIVITY and GRAVITY
 - [ ] QUANTUM MECHANICS

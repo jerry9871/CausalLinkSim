@@ -52,15 +52,6 @@ The simulation doesn't work with fields, but each particle has its own reference
 - Do the quanta traveling across causal links cause the quantization in spacetime we observe ?
 - Pure speculation: Universe "optimizes" the interaction between particles, so irrelevant causal links are not evaluated. We invented wave functions and Schrodinger equation - to describe the potentiality, but it is just another confusing mathematical abstraction. When the universe's substrate is forced to establish a causal link from one enclosed system to another, this is what we call observation and when wave function collapse happens.
 
----
-
-## Achievemnts to this date
-
-[*] SPECIAL RELATIVITY, ELECTROMAGNETISM
-[ ] INERTIA
-[ ] GRAVITY
-[ ] QUANTUM MECHANICS
-
 ## Acknowledgements
 
 **Channels and podcasts:** Independent Physics, Dialect, Chris The Brain, Curt Jaimungal, Vsauce, Veritasium, 3Blue1Brown, Kurzgesagt, PBS Space Time
@@ -72,5 +63,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-**Name:** Jaromir Dvorak
-**Email:** jery9871@gmail.com
+- **Name:** Jaromir Dvorak
+- **Email:** jery9871@gmail.com
+
+---
+
+## Achievemnts to this date
+
+- [x] ELECTROMAGNETISM
+- [x] SPECIAL RELATIVITY
+- [ ] INERTIA
+- [ ] GRAVITY
+- [ ] QUANTUM MECHANICS

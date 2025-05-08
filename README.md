@@ -2,7 +2,14 @@
 
 This humble particle simulator aspires to demonstrate some physical laws as emergent properties from a few, simple principles.
 
-## Preamble:
+## How to build and run (Windows)
+
+- Clone the repository
+- Install minGW-w64 with MSYS2 and SDL3 packages
+- Go to the folder and type `make`
+- Run `CausalLinkSim.exe` to start
+
+## Preamble
 
 I am not a physicist, neither mathematician, I am just a programmer. However, I have been always trying to understand the nature of the universe. I believe it must be reducible to a very simple set of rules with proper formalism, but the current mathematics is super complex and generates confusions, misunderstandings and paradoxes.
 

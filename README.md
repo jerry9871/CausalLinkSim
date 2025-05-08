@@ -54,8 +54,8 @@ The simulation doesn't work with fields, but each particle has its own reference
 
 ## Acknowledgements
 
-**Channels and podcasts:** Independent Physics, Dialect, Chris The Brain, Curt Jaimungal, Vsauce, Veritasium, 3Blue1Brown, Kurzgesagt, PBS Space Time
-**Current physicists:** Sabine Hossenfelder, Roger Penrose, Brian Greene, Ruth Kastner, Jacob Barandes
+- **Channels and podcasts:** Independent Physics, Dialect, Chris The Brain, Curt Jaimungal, Vsauce, Veritasium, 3Blue1Brown, Kurzgesagt, PBS Space Time
+- **Current physicists:** Sabine Hossenfelder, Roger Penrose, Brian Greene, Ruth Kastner, Jacob Barandes
 
 ## License
 
@@ -68,7 +68,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## Achievemnts to this date
+## What the sim is able to demonstrate ATM
 
 - [x] ELECTROMAGNETISM
 - [x] SPECIAL RELATIVITY

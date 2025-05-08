@@ -56,7 +56,7 @@ The simulation doesn't work with fields, but each particle has its own reference
 ## Acknowledgements
 
 - **Channels and podcasts:** Independent Physics, Dialect, Chris The Brain, Curt Jaimungal, Vsauce, Veritasium, 3Blue1Brown, Kurzgesagt, PBS Space Time
-- **Current physicists:** Sabine Hossenfelder, Roger Penrose, Brian Greene, Ruth Kastner, Jacob Barandes
+- **Current physicists:** Sabine Hossenfelder, Roger Penrose, Brian Greene, Ruth Kastner, Jacob Barandes, Lee Smolin, Carlo Rovelli, Robert Laughlin, John Wheeller
 
 ## License
 

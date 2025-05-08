@@ -11,7 +11,7 @@ This humble particle simulator aspires to demonstrate some physical laws as emer
 
 ## Preamble
 
-I am not a physicist, neither mathematician, I am just a programmer. However, I have been always trying to understand the nature of the universe. I believe it must be reducible to a very simple set of rules with proper formalism, but the current mathematics is super complex and generates confusions, misunderstandings and paradoxes.
+I am not a physicist, neither mathematician, I am just a programmer. However, I am curious and I believe that laws of nature must be reducible to a very simple set of rules - with proper formalism. However, the current frontier physics and mathematics is super complex and generates confusions, misunderstandings and paradoxes.
 
 ## Inspirations and principles behind
 
@@ -35,7 +35,7 @@ The simulation doesn't work with fields, but each particle has its own reference
 ### Nice to get: INERTIA
 
 - Inertia is emergent phenomenon from the particles and their interactions, and it follows the same rules as the electrostatic force.
-- The particle speed in relative to other particles is determined only by the causal links. The particle has no hidden variable to hold the momentum.
+- The particle speed is only determined in relation to other particles through causal links. The particle has no hidden variable to hold its momentum.
 - Mach's principle: The inertia of a particle is determined by the distribution of all other particles in the universe.
 
 ### Super nice to get: GRAVITY

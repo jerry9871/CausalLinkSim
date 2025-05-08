@@ -1,8 +1,3 @@
-/*
-	# Relativized constant causal speed particle simulator
-
-*/
-
 #include <math.h>
 #include <SDL3/SDL.h>
 

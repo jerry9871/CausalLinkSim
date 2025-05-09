@@ -34,8 +34,8 @@ The simulation doesn't work with fields, but each particle has its own reference
 
 ### Nice to get: INERTIA
 
-- Inertia is an emergent phenomenon from the particles and their interactions, and it follows the same rules as the electrostatic force.
-- The particle speed is only determined in relation to other particles through causal links. The particle has no hidden variable to hold its momentum.
+- Inertia is an emergent phenomenon from the particles and their interactions, and it follows similar rules as the electrostatic force.
+- The particle is inertially coupled to other particles through causal links. The particle has no hidden variable to hold its absolute momentum.
 - Mach's principle: The inertia of a particle is determined by the distribution of all other particles in the universe.
 
 ### Super nice to get: GENERAL RELATIVITY and GRAVITY

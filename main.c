@@ -3,7 +3,7 @@
 
 #define WINDOW_WIDTH 1000
 #define WINDOW_HEIGHT 800
-#define NPARTICLES 10
+#define NPARTICLES 2
 #define CAUSAL_LINK_LENGTH  1500
 
 struct causal_link {
@@ -11,7 +11,7 @@ struct causal_link {
 	double last_distance;
 	double mx[CAUSAL_LINK_LENGTH];
 	double my[CAUSAL_LINK_LENGTH];
-	double mf[CAUSAL_LINK_LENGTH];
+	double mr[CAUSAL_LINK_LENGTH];
 };
 
 struct particle {
@@ -32,6 +32,51 @@ struct particle {
 
 } particles[NPARTICLES];
 
+
+int
+init_scene1()
+{
+	memset(particles, 0, sizeof(particles));
+
+	double x = 0, y = 0;
+
+	for (int i = 0; i < NPARTICLES; i++) {
+		//particles[i].dx = 0.003 * ((rand() % 90) - 45);
+		//particles[i].dy = 0.003 * ((rand() % 90) - 45);
+
+		int marginx = WINDOW_WIDTH / 3;
+		int marginy = WINDOW_HEIGHT / 3;
+
+		particles[i].x = marginx + (rand() % (WINDOW_WIDTH - 2 * marginx));
+		particles[i].y = marginy + (rand() % (WINDOW_HEIGHT - 2 * marginy));
+
+		//particles[i].x = 10 + (x * (double)(WINDOW_WIDTH - 20));
+		//particles[i].y = 10 + (y * (double)(WINDOW_HEIGHT - 20));
+
+		x += 0.06;
+
+		if (x > 1) {
+			x = 0;
+			y += 0.06;
+		}
+
+		double me = 0.01;
+		//The proton-to-electron mass ratio is approximately 1,836.15. This means a proton is about 1,836 times more massive than an electron, despite having the same magnitude of electric charge.
+		particles[i].charge = (i & 1) ? 1 : -1;
+		particles[i].inertia = (i & 1) ? (me / 1836) : me;
+	}
+
+#define WIGGLING 0
+
+	for (int i = 0; i < WIGGLING; i++) {
+		particles[i].y = WINDOW_HEIGHT / 2;
+		particles[i].x = 8 * i + WINDOW_WIDTH / 2;
+
+		particles[i].inertia = 0.1;
+	}
+
+}
+
 int
 main(int argc, char* argv[])
 {
@@ -47,7 +92,7 @@ main(int argc, char* argv[])
 	}
 
 	// Create window
-	window = SDL_CreateWindow("Relativized constant causal speed particle simulator", WINDOW_WIDTH, WINDOW_HEIGHT, 0);
+	window = SDL_CreateWindow("Causal link simulator", WINDOW_WIDTH, WINDOW_HEIGHT, 0);
 
 	if (!window) {
 		SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "Window could not be created! SDL_Error: %s\n", SDL_GetError());
@@ -65,58 +110,17 @@ main(int argc, char* argv[])
 		return -1;
 	}
 
-
-	memset(particles, 0, sizeof(particles));
-	double x = 0, y = 0;
-
-	for (int i = 0; i < NPARTICLES; i++) {
-
-
-		//particles[i].dx = 0.003 * ((rand() % 90) - 45);
-		//particles[i].dy = 0.003 * ((rand() % 90) - 45);
-
-		int marginx = WINDOW_WIDTH / 4;
-		int marginy = WINDOW_HEIGHT / 4;
-
-		particles[i].x = marginx + (rand() % (WINDOW_WIDTH - 2 * marginx));
-		particles[i].y = marginy + (rand() % (WINDOW_HEIGHT - 2 * marginy));
-
-		//particles[i].x = 10 + (x * (double)(WINDOW_WIDTH - 20));
-		//particles[i].y = 10 + (y * (double)(WINDOW_HEIGHT - 20));
-
-		x += 0.06;
-
-		if (x > 1) {
-			x = 0;
-			y += 0.06;
-		}
-
-
-		double me = 0.01;
-		//The proton-to-electron mass ratio is approximately 1,836.15. This means a proton is about 1,836 times more massive than an electron, despite having the same magnitude of electric charge.
-		particles[i].charge = (i & 1) ? 1 : -1;
-		particles[i].inertia = (i & 1) ? (me / 1836) : me;
-	}
-
-#define WIGGLING 1
-
-	for (int i = 0; i < WIGGLING; i++) {
-		particles[i].y = WINDOW_HEIGHT / 2;
-		particles[i].x = 8 * i + WINDOW_WIDTH / 2;
-
-		particles[i].inertia = 0.1;
-	}
+	init_scene1();
 
 	int show_links = 0;
 	int show_actions = 1;
 	int show_es = 0;
 	int show_em = 1;
+	double x = 0, y = 0;
 
 	// Main loop
 	while (!quit) {
-
-
-		// Process events
+		// Process events first
 		while (SDL_PollEvent(&event)) {
 			if (event.type == SDL_EVENT_QUIT)
 				quit = true;
@@ -153,9 +157,9 @@ main(int argc, char* argv[])
 						x += 0.1;
 						break;
 
-
 					case SDLK_SPACE:
-						show_links = !show_links;
+						show_links ++;
+						show_links %= 3;
 						break;
 
 					case SDLK_RETURN:
@@ -178,12 +182,13 @@ main(int argc, char* argv[])
 
 		double dt = 1;
 
+		//iterate through e every particle
 		for (int i = 0; i < NPARTICLES; i++) {
 
 			struct particle* p = &particles[i];
-			double ax = 0, ay = 0;
+			double ax = 0, ay = 0, ix = 0, iy = 0;
 
-			//iterate through every linked particle and advance causal links of this particle
+			//iterate through every linked particle and advance causal links
 			for (int j = 0; j < NPARTICLES; j++) {
 
 				if (j == i)
@@ -207,9 +212,12 @@ main(int argc, char* argv[])
 
 				for (int k = 0; k < l->length + 2; k++) {
 
-					//in 3D, coulomb force decreases with 1/x^2
-					//assume in 2D plane, coulomb force should decrease with 1/x (projection)
-					//generate hyperbolic decay
+					//in 3D, coulomb force decreases with second order hyperbolic: 1/x^2, for example:
+					//1/1, 1/4, 1/9, 1/16, 1/25, 1/36, 1/49, 1/64, ...
+					//our favorite exponential decay is faster:
+					//1/1, 1/2, 1/4, 1/8, 1/16, 1/32, 1/64, 1/128, ...
+
+					//assume in 2D plane, coulomb force should decrease with 1/x (2D projection). generate hyperbolic decay:
 					/*  double q = distance - k;
 
 					    if(q > 0)
@@ -231,7 +239,7 @@ main(int argc, char* argv[])
 
 					l->mx[k] = l->mx[k + 1];
 					l->my[k] = l->my[k + 1];
-					l->mf[k] = l->mf[k + 1];
+					l->mr[k] = l->mr[k + 1];
 
 					if (k >= distance || !show_links)
 						continue;
@@ -247,41 +255,40 @@ main(int argc, char* argv[])
 					tx = p->x + k * tx / d;
 					ty = p->y + k * ty / d;
 
-					/*
-										double c1 = d * 10000;
-										double c2 = d * 5000;
+					if (show_links == 1) {
+						double c1 = d * 10000;
+						double c2 = d * 5000;
 
-										if (c1 > 255)
-											c1 = 255;
+						if (c1 > 255)
+							c1 = 255;
 
-										if (c2 > 255)
-											c2 = 255;
+						if (c2 > 255)
+							c2 = 255;
 
-										if (q->charge * p->charge > 0)
-											SDL_SetRenderDrawColor(renderer, c1, c2, c2, 255);
+						if (p->charge * q->charge > 0)
+							SDL_SetRenderDrawColor(renderer, c1, c2, c2, 255);
 
-										else
-											SDL_SetRenderDrawColor(renderer, c2, c2, c1, 255);
+						else
+							SDL_SetRenderDrawColor(renderer, c2, c2, c1, 255);
 
-										/*/
+					} else {
+						d  = fabs(l->mr[k]);
 
-					d  = fabs(l->mf[k]);
-					double c1 = d * 200;
-					double c2 = d * 100;
+						double c1 = d * 200;
+						double c2 = d * 100;
 
-					if (c1 > 255)
-						c1 = 255;
+						if (c1 > 255)
+							c1 = 255;
 
-					if (c2 > 255)
-						c2 = 255;
+						if (c2 > 255)
+							c2 = 255;
 
-					if (l->mf[k] > 0)
-						SDL_SetRenderDrawColor(renderer, c1, c2, c2, 255);
+						if (l->mr[k] > 0)
+							SDL_SetRenderDrawColor(renderer, c1, c2, c2, 255);
 
-					else
-						SDL_SetRenderDrawColor(renderer, c2, c2, c1, 255);
-
-					/**/
+						else
+							SDL_SetRenderDrawColor(renderer, c2, c2, c1, 255);
+					}
 
 					SDL_RenderPoint(renderer, tx,  ty);
 				}
@@ -310,71 +317,95 @@ main(int argc, char* argv[])
 				diffx *= q->charge;
 				diffy *= q->charge;
 
-				// spread across two buffer spaces
+				// spread insertion across two buffer spaces
 				int index = distance;
 				distance -= index;
 
 				l->mx[index] += diffx * (1 - distance);
 				l->my[index] += diffy * (1 - distance);
-				l->mf[index] += rate * (1 - distance);
+				l->mr[index] += rate * (1 - distance);
 				l->mx[index + 1] += diffx * distance;
 				l->my[index + 1] += diffy * distance;
-				l->mf[index + 1] += rate * distance;
+				l->mr[index + 1] += rate * distance;
 
-				//extract and accumulate resulting force from end of causal link (average across two closest actions)
-				ax += (l->mx[0] + l->mx[1]) / 2;
-				ay += (l->my[0] + l->my[1]) / 2;
+				//extract resulting action from end of causal link (average across two closest actions)
+				double tx = (l->mx[0] + l->mx[1]) / 2;
+				double ty = (l->my[0] + l->my[1]) / 2;
+				double tf = (l->mr[0] + l->mr[1]) / 2;
+
+				//accumulate action
+				ax += tx;
+				ay += ty;
+
+				double d = sqrt(tx * tx + ty * ty);
+
+				if (d == 0)
+					continue;
+
+				//accumulate inertial coupling
+				ix += tf * tx / d;
+				iy += tf * ty / d;
 			}
 
 			//calculate resulting action force
 			ax *= p->charge;
 			ay *= p->charge;
 
-			//integrate force into speed
+			if (0) {
+				//integrate force into speed
+				p->dx -= ax * dt * p->inertia;
+				p->dy -= ay * dt * p->inertia;
 
-			p->dx -= ax * dt * p->inertia;
-			p->dy -= ay * dt * p->inertia;
+				//hard-limit the speed to speed of causality (absolute frame - get rid of!)
+				//TODO figure out how inertia works !
+				double sp = sqrt(p->dx * p->dx + p->dy * p->dy);
 
-			//hard-limit the speed to speed of causality (absolute frame - get rid of!)
-			//TODO figure out how inertia works !
-			double sp = sqrt(p->dx * p->dx + p->dy * p->dy);
+				double max_speed = 0.5;
 
-			double max_speed = 0.5;
+				if (sp > max_speed) {
+					p->dx *= max_speed / sp;
+					p->dy *= max_speed / sp;
+				}
 
-			if (sp > max_speed) {
-				p->dx *= max_speed / sp;
-				p->dy *= max_speed / sp;
+				//damping
+				// p->dx -=  p->dx * 0.001;
+				// p->dy -=  p->dy * 0.001;
+
+				//integrate speed into position (absolute frame - get rid of!)
+				//TODO figure out how inertia works !
+				p->x += p->dx * dt;
+				p->y += p->dy * dt;
+
+			} else {
+
+				//attempt to reduce order - does inertia emerge?
+				//p->x += p->ax * dt * p->inertia * 1000 * ix;
+				//p->y += p->ay * dt * p->inertia * 1000 * iy;
+
+				//propagate the particle along inertial coupling base
+				p->x += ix;
+				p->y += iy;
+
+				/*
+					Here is not good point to process inertia. If someone bounces the particle lacally, it will not immediately see the effect from incoming causal links.
+					We need to see immediate local inertia to emerge. Suggestion: The particle has to deliver its momentum to the causal links and move accordingly.
+					But that would violate the causality principle?
+				*/
 			}
-
-			//damping
-			// p->dx -=  p->dx * 0.001;
-			// p->dy -=  p->dy * 0.001;
-
-			//integrate speed into position
-			p->x += p->dx * dt;
-			p->y += p->dy * dt;
-
-			//attempt to reduce order - does inertia emerge?
-			//p->x += p->ax * dt * p->inertia;
-			//p->y += p->ay * dt * p->inertia;
-			/*
-				Here is not good point to process inertia. If someone bounces the particle lacally, it will not immediately see the effect from incoming causal links.
-				We need to see immediate local inertia to emerge. Suggestion: The particle has to deliver its momentum to the causal links and move accordingly.
-			*/
 
 			//calculate magnitude (electrostatic force)
 			double es = sqrt(ax * ax + ay * ay);
 
-			//calculate angle change (magnetic force)
+			//calculate angle change (field rotation : magnetic force)
 			double em = (ax - p->ax) * ay -
 						(ay - p->ay) * ax;
 			p->ax = ax;
 			p->ay = ay;
 
+			//filter for visualization
 			p->em += (em - p->em) * 0.2;
 
-
-			//handle collisions
+			//handle collisions to the walls
 			int margin = 1;
 
 			if (p->x < margin)
@@ -413,12 +444,11 @@ main(int argc, char* argv[])
 				SDL_RenderFillRect(renderer, &rect);
 			}
 
-			// draw magnetic lines with circle (perpendicular to the force)
+			// draw magnetic field lines with circle (perpendicular to the simulation plane)
 			if (show_em) {
 				double e = sqrt(fabs(p->em) * 1000000000);
 
 				if (e > 0) {
-
 					if (e > 255)
 						e = 255;
 
@@ -447,7 +477,7 @@ main(int argc, char* argv[])
 		SDL_RenderPresent(renderer);
 	}
 
-	// Clean up
+// Clean up
 	SDL_DestroyRenderer(renderer);
 	SDL_DestroyWindow(window);
 	SDL_Quit();

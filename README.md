@@ -11,17 +11,17 @@ This humble particle simulator aspires to demonstrate some physical laws as emer
 
 ## Preamble
 
-I am neither physicist, nor mathematician, I am just a programmer. Yet I believe that laws of nature must be reducible to a very simple set of rules - with proper formalism. In my view, the current frontier physics and mathematics is super complex and generates confusions, misunderstandings and paradoxes. Rather than trying to understand the current theories, I am trying to build a simple model of the universe from scratch. I am not trying to prove or disprove anything, just to see if I can get some of the known physical laws as emergent properties from a few simple rules.
+I am neither physicist, nor mathematician, I am just a programmer. Yet I believe that laws of nature must be reducible to a very simple set of rules - with proper formalism. In my view, the current frontier physics and mathematics is super complex, deviates from experimental verifiability and generates confusions, misunderstandings and paradoxes. Rather than trying to understand the current theories, I am trying to build a simple model of the universe from scratch. I am not trying to prove or disprove anything, just to see if I can get some of the known physical laws as emergent properties from a minimal set of simple rules.
 
 ## Inspirations and principles behind
 
-The simulation doesn't work with fields, but each particle has its own reference frame and the information from other particles is delivered to the particle along the causal link at finite speed within that frame. Postulates I follow are:
+The simulation doesn't work with fields, but each particle has its own reference frame and the information from other particles is delivered along **the causal link** at finite speed within that frame. The particle sits at the end of the causal link. Postulates I follow are:
 
 - Causality is fundamental and speed of causality is constant and finite.
-- Everything only exists in relation to eveyryhing else. Without relation, there is no existence in spacetime and existence itself loses meaning.
+- Everything only exists in relation to eveyryhing else. Without relation, there is no existence in spacetime and existence loses meaning.
 - Block universe doesn't exist and the future is not determined. Observers can't agree on simultaneity.
 - Time is not intertwined with space, rather it's just a metric of interaction speed.
-- A "field" of any kind requires its own, independent reference frame. Therefore, notion of field is a confusing mathematical abstraction.
+- A "field" of any kind requires its own, usually independent reference frame. Therefore, notion of field is a confusing mathematical abstraction.
 
 ## Expected outcomes (wish list)
 
@@ -51,12 +51,13 @@ The simulation doesn't work with fields, but each particle has its own reference
 - Spacetime is a container where the particles can be observed, possibly emerging from the quantum substrate where also the causal links live.
 - Transactional interpretation of quantum mechanics? Does the discreteness of causal links cause the quantum effects we observe in spacetime?
 - I see virtual immediate action at the beginning of the causal link and symmetricity of propagation. Can the causal link be the mechanism of quantum entanglement?
+- By applying a variant of gaguge theory to the causal links (close to the end), can we obtain the strong and week nuclear forces?
 - Pure speculation: Universe "computationally optimizes" the interaction between particles, so irrelevant causal links are not evaluated. Physicists invented wave functions and Schrodinger equation - to describe the potentiality, but it is just mathematical abstraction, requiring a field metrics and leading to confusions. I speculate that when the universe's substrate is forced to evaluate a causal link from one enclosed system to another, this is what we call observation and when the wave function collapses.
 
 ## Acknowledgements
 
-- **Channels and podcasts:** Independent Physics, Dialect, Chris The Brain, Curt Jaimungal, Vsauce, Veritasium, 3Blue1Brown, Kurzgesagt, PBS Space Time
-- **Current physicists:** Sabine Hossenfelder, Roger Penrose, Brian Greene, Ruth Kastner, Jacob Barandes, Lee Smolin, Carlo Rovelli, Robert Laughlin, John Wheeller
+- **Channels and podcasts:** Independent Physics, Dialect, Chris The Brain, Theories of Everything, Vsauce, Veritasium, 3Blue1Brown, Kurzgesagt, PBS Space Time
+- **Current physicists:** Sabine Hossenfelder, Roger Penrose, Ruth Kastner, Jacob Barandes, Lee Smolin, Carlo Rovelli, Robert Laughlin, John Wheeller
 
 ## License
 

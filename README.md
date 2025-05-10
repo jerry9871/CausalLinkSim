@@ -20,7 +20,7 @@ The simulation doesn't work with fields, but each particle has its own reference
 - Causality is fundamental and speed of causality is constant and finite.
 - Everything only exists in relation to eveyryhing else. Without relation, there is no existence in spacetime and existence loses meaning.
 - Block universe doesn't exist and the future is not determined. Observers can't agree on simultaneity.
-- Time is not intertwined with space, rather it's just a metric of interaction speed.
+- Time is not intertwined with space as a dimension, rather it's just the **fundamental causality metric** of space.
 - A "field" of any kind requires its own, usually independent reference frame. Therefore, notion of field is a confusing mathematical abstraction.
 
 ## Expected outcomes (wish list)

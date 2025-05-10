@@ -386,6 +386,8 @@ main(int argc, char* argv[])
 				p->x += ix;
 				p->y += iy;
 
+				//the causal link should deliver the action to the particle.
+
 				/*
 					Here is not good point to process inertia. If someone bounces the particle lacally, it will not immediately see the effect from incoming causal links.
 					We need to see immediate local inertia to emerge. Suggestion: The particle has to deliver its momentum to the causal links and move accordingly.

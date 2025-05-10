@@ -7,7 +7,7 @@ This humble particle simulator aspires to demonstrate some physical laws as emer
 - Clone the repository
 - Install minGW-w64 with MSYS2 and SDL3 packages
 - Go to the folder and type `make`
-- Run `CausalLinkSim.exe` to start
+- Run `particle.exe` to start
 
 ## Preamble
 
@@ -27,37 +27,40 @@ The simulation doesn't work with fields, but each particle has its own reference
 
 ### Must have: SPECIAL RELATIVITY and ELECTROMAGNETISM
 
-- Electrostatic force is a fundamental property of the particle and its charge, and the action quanta are distributed across causal links.
-- Time dilation and length contraction are emergent phenomena observed within the particles and their causal interactions, due to the finite speed of causality.
-- Magnetism is a time-dependent rotation of the electrostatic force vector, when observed as contribution from every nearby moving charged particle.
+- Electrostatic force is a fundamental property of the particle (fermions) and its charge (Gauss's law) and the action quanta (bosons) are distributed across causal links (my claim).
+- Time dilation and length contraction are emergent phenomena observed within the fermionic particles and their causal interactions, due to the finite speed of causality.
+- Magnetism is a time-dependent rotation of the electrostatic force vector, when observed as contribution from every nearby moving charged particle (Faraday's law in simple terms).
 - Light and other electromagnetic waves are emergent properties of the particles and their causal interactions. The wave propagation results from combination of vector actions and advanced/retarded wavefront delivery along the causal links.
 
 ### Nice to get: INERTIA
 
 - Inertia is an emergent phenomenon from the particles and their interactions, and it follows similar rules as the electrostatic force.
-- The particle is inertially coupled to other particles through causal links. The particle has no hidden variable to hold its absolute momentum.
-- Mach's principle: The inertia of a particle is determined by the distribution of all other particles in the universe.
+- The particle is inertially coupled to other particles through causal links (gravitons? ...). The particle has no hidden variable to hold its absolute momentum. State vector is a property of the causal link, rather than the particle itself.
+- The claim of GR that spacetime geometry becomes flat Minkowski spacetime is to be questioned. The stress tensor and cosomological constant may be misunderstood (my claim).
+- I adhere to Mach's principle: The inertia of a particle is determined by the distribution of all other particles in the universe.
+- Dark matter and dark energy are apparent and the observed effects stems from misunderstandings of how inertia and gravity works.
 
 ### Super nice to get: GENERAL RELATIVITY and GRAVITY
 
-- Curvature of spacetime doesn't need to include time, just space. My belief is that replacing 4D spacetime manifold with "space density" - 3D space manifold, will preserve all the GR/SR effects. There is just more space around massive objects, which causes the nearby particles to move slower from external observer's perspective.
+- Block universe is a misleading concept. Description of curvature of spacetime doesn't need to include time, just space. Replacing 4D spacetime manifold with "space density" - 3D space-space manifold preserves all the GR effects. The metric tensor can be reduced to 3x3 spatial transformation only. This is direct consequence of **Scale of time × Scale of space = 1**, which is true for arbitrary, non-rotating Schwarzchild metric. In other words: there is just more space around massive objects, which causes the nearby particles to move slower from external observer's perspective.
 - Space density gradient around massive objects is equivalent to acceleration, because acceleration makes the object to experience space gradient in the direction of accleration. This is the alternate explanation for the Einstein's equivalence principle.
+- Space is a conttainer for fermionic particles (endings of the causal links), and the links live in the backend. The "field" of any kind doesn't exist in the spacetime.
+- Curvature of spacetime emerges from arrangement of the causal links. Particle density (mass) gradient translates into the causal links stretching in the direction of the gradient.
 - Acceleration between two particles makes a wavefront in their causal link. If the causal link goes through an event horizon, the wavefront is steeper than the speed of causality, and the causal link tears down.
-- Dark matter and dark energy are apparent and the observed effects stems from misunderstandings of how inertia and gravity works.
 
 ### Super wild and nice to get: QUANTUM MECHANICS
 
 - The particle is not a point, but a potentiality for interaction. Causal link is as fundamental as the particle itself, or more.
-- Spacetime is a container where the particles can be observed, possibly emerging from the quantum substrate where also the causal links live.
+- Space is a container where the fermionic particles can be observed, possibly emerging from the quantum substrate where also the causal links live.
 - Transactional interpretation of quantum mechanics? Does the discreteness of causal links cause the quantum effects we observe in spacetime?
 - I see virtual immediate action at the beginning of the causal link and symmetricity of propagation. Can the causal link be the mechanism of quantum entanglement?
 - By applying a variant of gaguge theory to the causal links (close to the end), can we obtain the strong and week nuclear forces?
-- Pure speculation: Universe "computationally optimizes" the interaction between particles, so irrelevant causal links are not evaluated. Physicists invented wave functions and Schrodinger equation - to describe the potentiality, but it is just mathematical abstraction, requiring a field metrics and leading to confusions. I speculate that when the universe's substrate is forced to evaluate a causal link from one enclosed system to another, this is what we call observation and when the wave function collapses.
+- Speculation: Causal links participate in causal sets. Universe "computationally optimizes" itself, so links in irrelevant causal sets are not evaluated. If a causal set is absolutely isolated, the superposition doesn't collapse and the potentiality doesn't translate into observable fermionic particles. Physicists came with wave functions and Schrodinger equation to describe the potentiality, but it doesn't represent a physical entity. I speculate that when the universe's substrate is forced to evaluate a causal link from one enclosed set to another, this is what we call observation and when the entire set's wave function collapses.
 
 ## Acknowledgements
 
 - **Channels and podcasts:** Independent Physics, Dialect, Chris The Brain, Theories of Everything, Vsauce, Veritasium, 3Blue1Brown, Kurzgesagt, PBS Space Time
-- **Current physicists:** Sabine Hossenfelder, Roger Penrose, Ruth Kastner, Jacob Barandes, Lee Smolin, Carlo Rovelli, Robert Laughlin, John Wheeller
+- **Current physicists:** Sabine Hossenfelder, Roger Penrose, Ruth Kastner, Jacob Barandes, Lee Smolin, Carlo Rovelli, Robert Laughlin, Avshalom Elitzur
 
 ## License
 

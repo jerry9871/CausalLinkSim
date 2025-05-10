@@ -27,7 +27,7 @@ The simulation doesn't work with fields, but each particle has its own reference
 
 ### Must have: SPECIAL RELATIVITY and ELECTROMAGNETISM
 
-- Electrostatic force is a fundamental property of the particle (fermions) and its charge (Gauss's law) and the action quanta (bosons) are distributed across causal links (my claim).
+- Electrostatic force is a fundamental property of the particle (fermion) and its charge (Gauss's law) and the action quanta (boson) are distributed across causal links (my claim).
 - Time dilation and length contraction are emergent phenomena observed within the fermionic particles and their causal interactions, due to the finite speed of causality.
 - Magnetism is a time-dependent rotation of the electrostatic force vector, when observed as contribution from every nearby moving charged particle (Faraday's law in simple terms).
 - Light and other electromagnetic waves are emergent properties of the particles and their causal interactions. The wave propagation results from combination of vector actions and advanced/retarded wavefront delivery along the causal links.
@@ -36,16 +36,16 @@ The simulation doesn't work with fields, but each particle has its own reference
 
 - Inertia is an emergent phenomenon from the particles and their interactions, and it follows similar rules as the electrostatic force.
 - The particle is inertially coupled to other particles through causal links (gravitons? ...). The particle has no hidden variable to hold its absolute momentum. State vector is a property of the causal link, rather than the particle itself.
-- The claim of GR that spacetime geometry becomes flat Minkowski spacetime is to be questioned. The stress tensor and cosomological constant may be misunderstood (my claim).
+- The claim of GR that spacetime geometry becomes flat Minkowski spacetime far from massive objects is to be questioned. The stress tensor and cosomological constant may be misunderstood (my claim).
 - I adhere to Mach's principle: The inertia of a particle is determined by the distribution of all other particles in the universe.
 - Dark matter and dark energy are apparent and the observed effects stems from misunderstandings of how inertia and gravity works.
 
 ### Super nice to get: GENERAL RELATIVITY and GRAVITY
 
-- Block universe is a misleading concept. Description of curvature of spacetime doesn't need to include time, just space. Replacing 4D spacetime manifold with "space density" - 3D space-space manifold preserves all the GR effects. The metric tensor can be reduced to 3x3 spatial transformation only. This is direct consequence of **Scale of time × Scale of space = 1**, which is true for arbitrary, non-rotating Schwarzchild metric. In other words: there is just more space around massive objects, which causes the nearby particles to move slower from external observer's perspective.
-- Space density gradient around massive objects is equivalent to acceleration, because acceleration makes the object to experience space gradient in the direction of accleration. This is the alternate explanation for the Einstein's equivalence principle.
-- Space is a conttainer for fermionic particles (endings of the causal links), and the links live in the backend. The "field" of any kind doesn't exist in the spacetime.
-- Curvature of spacetime emerges from arrangement of the causal links. Particle density (mass) gradient translates into the causal links stretching in the direction of the gradient.
+- Block universe is a misleading concept, because description of spacetime curvature doesn't need to include time. Time is not a coordinate, it is the causality metric of space. Replacing 4D spacetime manifold with "space density" - 3D space-space manifold preserves the GR effects. The metric tensor can be reduced to 3x3 spatial geometric transformation only. This is direct consequence of **Scale of time × Scale of space = 1**, which is true at least for any arbitrary, non-rotating Schwarzchild metric. In other words: there is just more space around massive objects, which causes the nearby particles to move slower from external observer's perspective. The claim of time-to-space rotation close to event horizon is speculative, or to be understood better within this context.
+- Space density gradient around massive objects is perceived as acceleration, because "true" acceleration makes the object to experience space gradient in the direction of accleration. This is the alternate explanation for the Einstein's equivalence principle, without time as a coordinate.
+- Space is a container for fermionic particles (endings of the causal links), and the links live in the backend. The "field" of any kind doesn't exist in the spacetime.
+- Curvature of spacetime emerges from arrangement of the causal links (causality propagating null trajectories). Particle density (mass) gradient translates into the causal links stretching in the direction of the gradient.
 - Acceleration between two particles makes a wavefront in their causal link. If the causal link goes through an event horizon, the wavefront is steeper than the speed of causality, and the causal link tears down.
 
 ### Super wild and nice to get: QUANTUM MECHANICS

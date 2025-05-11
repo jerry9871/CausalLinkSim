@@ -15,7 +15,7 @@ I am neither physicist, nor mathematician, I am just an engineer. Yet I believe 
 
 ## Inspirations and principles behind
 
-The simulation is built around my idea of **causal links**. The causal link is a fundamental, unilateral, non-physical coupling relation along which the interaction propagates. A **particle** is a potentiality, that manifests itself into observable space. Spacetime is the observable metric emerging from the NxN causality link network. Postulates I follow are:
+The simulation is built around my idea of **causal links**. The causal link is a fundamental, unilateral, non-physical coupling relation along which the interaction propagates. A **particle** is a potentiality, that manifests itself into observable space. Spacetime is the observable metric emerging from the NxN causality link network. Principles I follow are:
 
 - Causality is fundamental and "speed" of causality is constant and finite.
 - Everything only exists in relation to eveyryhing else. Without relation, there is no existence in spacetime and existence loses meaning.

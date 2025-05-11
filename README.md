@@ -37,10 +37,10 @@ The simulation is built around my idea of **causal links**. The causal link is a
 
 - I adhere to Mach's principle: The inertia of a particle is determined by the distribution of all other particles in the universe.
 - Inertia is an emergent phenomenon from the particles and their interactions, and it follows similar rules as the electrostatic force. Particles are inertially coupled to each other with finite speed of causality.
-- The particle has no hidden variable to hold its absolute momentum. Each causal link has it's own momentum-like equivalent state. State vector is a property of the causal link, rather than the particle itself.
+- The particle has no hidden variable to hold its absolute momentum. Each causal link has it's own momentum-like equivalent state. State vector is concetrated towards the causal link, rather than to the particle itself.
 - Inertial coupling is not scalar, but vectorial; otherwise a spinning skater wouldn't feel the centrifugal force. It wouldn't be possible to explain the Coriolis effect, which is a result of the inertial coupling.
-- The claim of GR that spacetime geometry becomes flat Minkowski spacetime far from massive objects is to be questioned. The stress tensor and cosomological constant may be misunderstood (my claim).
-- Dark matter and dark energy are apparent and the observed effects stems from misunderstandings of how inertia and gravity works.
+- The claim of GR that spacetime geometry becomes flat Minkowski spacetime far from massive objects is to be questioned. The stress tensor and cosomological constant may be ill defined (my claim).
+- Dark matter and dark energy are apparent and the observed discrepancies stems from misunderstandings of how inertia and gravity works.
 
 ### Super nice to get: GRAVITY and GENERAL RELATIVITY
 

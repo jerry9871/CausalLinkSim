@@ -28,8 +28,8 @@ The simulation is built around my idea of replacing **fields** in physics with *
 
 ### Must have: ELECTROMAGNETISM and SPECIAL RELATIVITY
 
-- Electrostatic force is a fundamental property of the particle (fermion) and its charge (Gauss's law) and the action quanta (boson) are distributed across causal links (my claim).
-- Length contraction is emergent phenomena observed within the fermionic particles and their causal interactions, due to the advanced/retarded interaction delivery along the causal links.
+- Electrostatic force is a fundamental property of the particle and its charge (Gauss's law) and the action quanta are distributed across causal links (my claim).
+- Length contraction is emergent phenomena observed within the massive particles and their causal interactions, due to the advanced/retarded interaction delivery along the causal links.
 - A light clock moving at constant speed relative to a stationary observer will appear to tick slower due to advanced/retarded wavefront delivery along the causal links. Within the Twin paradox concept, the total tick count measured by moving clock will be less than the stationary clock at reunion, as predicted by the conventional theory. This is due to the combined effect of advanced/retarded wavefront and the inertial coupling (to be shown). A hint can be found in the Dialect video, where they demonstrated that twin paradox can be explained without the need for isotropy of the speed of light.
 - Magnetism is a time-dependent rotation of the electrostatic force vector, when observed as contribution from every nearby moving charged particle (Faraday's law in simple terms).
 - Light and other electromagnetic waves are emergent properties of the particles and their causal interactions. The combined effect of vector actions propagating along advanced/retarded causality wavefront yields to the perpendicular electric and magnetic propagating fields along null trajectories.
@@ -49,12 +49,12 @@ The simulation is built around my idea of replacing **fields** in physics with *
 - Space density gradient around massive objects is perceived as acceleration, because "true" acceleration makes the object to experience space gradient in the direction of accleration. This is the Einstein's equivalence principle refined for our needs and not needing time as a coordinate.
 - Curvature of spacetime emerges from arrangement of the causal links (causality propagating null trajectories). Particle density (mass) gradient translates into the causal links stretching in the direction of the gradient.
 - Acceleration between two particles makes a wavefront in their causal link. If the causal link goes through an event horizon, the wavefront is steeper than the speed of causality, and the causal link tears down.
-- TODO interpret observations of LIGO and gravitational waves, as well as the Gravity probe B experiment within our context.
+- The common explanation of principle of giant laser interferometers (LIGO, VIRGO) uses GR equations to infere that the interferometer works because the proper distance between the mirrors is changing as the wave propagetes (https://arxiv.org/pdf/gr-qc/0702079). However, a more aligned explanation stems from considering speed of light anisotropy in accelerating reference frame, which the wave introduces. As the wave propagates through the detector arm, the speed of light is what changes due to the "space density gradient" and causal links stretching between the mirrors.
 
 ### Super wild and nice to get: QUANTUM MECHANICS
 
-- The particle is not a point, but a potentiality for interaction. Causal link is as fundamental as the particle itself, or more.
-- Space is a container for fermionic particles (endings of the causal links), and the links live in the quantum substrate.
+- Electrostatic force is a fundamental property of the particle (fermion) and its charge (Gauss's law) and the action quanta (boson) are distributed across causal links (my claim).
+- The particle is not a point, but a potentiality for interaction. Causal link is as fundamental as the particle itself, or more. Space is a container for fermionic particles (endings of the causal links), and the links live in the quantum substrate.
 - Causal links replace bosons - mediators of the interaction. They themselves are not causaly linked to anything. This reflets the facts that in conventional theory, bosons always travel at the speed of light and they are not observed as particles.
 - Transactional interpretation of quantum mechanics? Does the discreteness of causal links cause the quantum effects we observe in spacetime?
 - I see virtual immediate action at the beginning of the causal link and symmetricity of propagation. Can the causal link be the mechanism of quantum entanglement?

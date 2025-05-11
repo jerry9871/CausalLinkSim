@@ -15,7 +15,7 @@ I am neither physicist, nor mathematician, I am just an engineer. Yet I believe 
 
 ## Inspirations and principles behind
 
-The simulation is built around my idea of **causal links**. The causal link is a fundamental, unilateral, non-physical coupling relation along which the interaction propagates. A **particle** is a potentiality, that manifests itself into physical existence. Spacetime is the observable metric emerging from the NxN causality link network. Principles I follow are:
+The simulation is built around my idea of replacing **fields** in physics with **causal links**. I define the causal link is a fundamental, unilateral, non-physical coupling relation along which the interaction propagates. A **particle** is a potentiality, that manifests itself into physical existence. Spacetime is the observable metric emerging from the NxN causal link network. Further principles I follow are:
 
 - Causality is fundamental and "speed" of causality is constant and finite.
 - Everything only exists in relation to eveyryhing else. Without relation, there is no existence in spacetime and existence loses meaning.
@@ -37,8 +37,8 @@ The simulation is built around my idea of **causal links**. The causal link is a
 
 - I adhere to Mach's principle: The inertia of a particle is determined by the distribution of all other particles in the universe.
 - Inertia is an emergent phenomenon from the particles and their interactions, and it follows similar rules as the electrostatic force. Particles are inertially coupled to each other with finite speed of causality.
-- The particle has no hidden variable to hold its absolute momentum. Each causal link has it's own momentum-like equivalent state. State vector is concetrated towards the causal link, rather than to the particle itself.
-- Inertial coupling is not scalar, but vectorial; otherwise a spinning skater wouldn't feel the centrifugal force. It wouldn't be possible to explain the Coriolis effect, which is a result of the inertial coupling.
+- The particle has no hidden variable to hold its momentum, because that would require a reference frame. Each causal link has it's own momentum-like equivalent state. State vector is a property the causal link, rather than of the particle itself.
+- Inertial coupling is not scalar, but vectorial; otherwise "a spinning skater wouldn't feel the centrifugal force". It wouldn't be possible to explain the Coriolis effect, which is also a result of the inertial coupling.
 - The claim of GR that spacetime geometry becomes flat Minkowski spacetime far from massive objects is to be questioned. The stress tensor and cosomological constant may be ill defined (my claim).
 - Dark matter and dark energy are apparent and the observed discrepancies stems from misunderstandings of how inertia and gravity works.
 
@@ -49,6 +49,7 @@ The simulation is built around my idea of **causal links**. The causal link is a
 - Space is a container for fermionic particles (endings of the causal links), and the links live in the backend. The "field" of any kind doesn't exist in the spacetime.
 - Curvature of spacetime emerges from arrangement of the causal links (causality propagating null trajectories). Particle density (mass) gradient translates into the causal links stretching in the direction of the gradient.
 - Acceleration between two particles makes a wavefront in their causal link. If the causal link goes through an event horizon, the wavefront is steeper than the speed of causality, and the causal link tears down.
+- TODO interpret observations of LIGO and gravitational waves, as well as the Gravity probe B experiment within our context.
 
 ### Super wild and nice to get: QUANTUM MECHANICS
 

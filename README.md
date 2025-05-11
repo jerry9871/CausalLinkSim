@@ -19,9 +19,10 @@ The simulation is built around my idea of replacing **fields** in physics with *
 
 - Causality is fundamental and "speed" of causality is constant and finite.
 - Everything only exists in relation to eveyryhing else. Without relation, there is no existence in spacetime and existence loses meaning.
-- Block universe doesn't exist and the future is not determined. Observers can't agree on simultaneity.
+- Block universe doesn't exist and the future is not determined. Observers can't agree on simultaneity and time manifests itself as evolution of the causal links locally.
 - Time is not intertwined with space as a dimension, rather it's just the **fundamental causality metric** of space.
-- A "field" of any kind requires its own, usually independent reference frame in spacetime. Therefore, notion of field is a confusing mathematical abstraction, since the spacetime is emergent.
+- The common notion of a "field" is non-physical in the same way as hereby defined causal link is non-physical, because physicists defined the field as a potentiality for interaction.
+- A "field" of any kind requires its own, usually independent reference frame and a metric in spacetime. Therefore, notion of field is abandoned, since the spacetime is emergent here.
 
 ## Expected outcomes (wish list)
 
@@ -29,7 +30,7 @@ The simulation is built around my idea of replacing **fields** in physics with *
 
 - Electrostatic force is a fundamental property of the particle (fermion) and its charge (Gauss's law) and the action quanta (boson) are distributed across causal links (my claim).
 - Length contraction is emergent phenomena observed within the fermionic particles and their causal interactions, due to the advanced/retarded interaction delivery along the causal links.
-- A light clock moving with constant speed relative to a stationary observer will appear to tick slower due to advanced/retarded wavefront delivery along the causal links. Within the Twin paradox concept, the total ticks measured by moving clock will be less than the stationary clock, which can be explained without the need istoropy of the speed of light (video by Dialect). In our case, the inertial coupling will provide concise explanation of the twin paradox.
+- A light clock moving at constant speed relative to a stationary observer will appear to tick slower due to advanced/retarded wavefront delivery along the causal links. Within the Twin paradox concept, the total tick count measured by moving clock will be less than the stationary clock at reunion, as predicted by the conventional theory. This is due to the combined effect of advanced/retarded wavefront and the inertial coupling (to be shown). A hint can be found in the Dialect video, where they demonstrated that twin paradox can be explained without the need for isotropy of the speed of light.
 - Magnetism is a time-dependent rotation of the electrostatic force vector, when observed as contribution from every nearby moving charged particle (Faraday's law in simple terms).
 - Light and other electromagnetic waves are emergent properties of the particles and their causal interactions. The combined effect of vector actions propagating along advanced/retarded causality wavefront yields to the perpendicular electric and magnetic propagating fields along null trajectories.
 
@@ -46,7 +47,6 @@ The simulation is built around my idea of replacing **fields** in physics with *
 
 - Idea of block universe is misleading because description of spacetime curvature doesn't need to include time. Time is not a coordinate, it is the causality metric of space. Accepting time as "emergence" and devoiding from the block universe, it can be shown that replacing 4D spacetime manifold with "space density" - 3D space-space manifold preserves the GR effects. The 4x4 metric tensor can be reduced to 3x3 spatial transformation only, assuming **Scale of time × Scale of space = 1**, which is true at least for any arbitrary, non-rotating Schwarzchild metric. In other words: there is just more space around massive objects, which causes the nearby particles to move slower from external observer's perspective. The frame dragging effect of Kerr metric in rotating black hole with non-zero time-to-space transformation components is yet to be properly understood within this context. I believe that Mach's principle is relevant here and the vectorial inertial coupling is the key in our model. The problem is essentially similar to the spining skater relative to the rest of the universe.
 - Space density gradient around massive objects is perceived as acceleration, because "true" acceleration makes the object to experience space gradient in the direction of accleration. This is the Einstein's equivalence principle refined for our needs and not needing time as a coordinate.
-- Space is a container for fermionic particles (endings of the causal links), and the links live in the backend. The "field" of any kind doesn't exist in the spacetime.
 - Curvature of spacetime emerges from arrangement of the causal links (causality propagating null trajectories). Particle density (mass) gradient translates into the causal links stretching in the direction of the gradient.
 - Acceleration between two particles makes a wavefront in their causal link. If the causal link goes through an event horizon, the wavefront is steeper than the speed of causality, and the causal link tears down.
 - TODO interpret observations of LIGO and gravitational waves, as well as the Gravity probe B experiment within our context.
@@ -54,7 +54,7 @@ The simulation is built around my idea of replacing **fields** in physics with *
 ### Super wild and nice to get: QUANTUM MECHANICS
 
 - The particle is not a point, but a potentiality for interaction. Causal link is as fundamental as the particle itself, or more.
-- Space is a container where the fermionic particles can be observed, possibly emerging from the quantum substrate where also the causal links live.
+- Space is a container for fermionic particles (endings of the causal links), and the links live in the quantum substrate.
 - Causal links replace bosons - mediators of the interaction. They themselves are not causaly linked to anything. This reflets the facts that in conventional theory, bosons always travel at the speed of light and they are not observed as particles.
 - Transactional interpretation of quantum mechanics? Does the discreteness of causal links cause the quantum effects we observe in spacetime?
 - I see virtual immediate action at the beginning of the causal link and symmetricity of propagation. Can the causal link be the mechanism of quantum entanglement?

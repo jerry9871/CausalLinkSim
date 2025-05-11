@@ -54,6 +54,7 @@ The simulation is built around my idea of **causal links**. The causal link is a
 
 - The particle is not a point, but a potentiality for interaction. Causal link is as fundamental as the particle itself, or more.
 - Space is a container where the fermionic particles can be observed, possibly emerging from the quantum substrate where also the causal links live.
+- Causal links replace bosons - mediators of the interaction. They themselves are not causaly linked to anything. This reflets the facts that in conventional theory, bosons always travel at the speed of light and they are not observed as particles.
 - Transactional interpretation of quantum mechanics? Does the discreteness of causal links cause the quantum effects we observe in spacetime?
 - I see virtual immediate action at the beginning of the causal link and symmetricity of propagation. Can the causal link be the mechanism of quantum entanglement?
 - By applying a variant of gaguge theory to the causal links (close to the end), can we obtain the strong and week nuclear forces?

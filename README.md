@@ -11,7 +11,7 @@ This humble particle simulator aspires to demonstrate some physical laws as emer
 
 ## Preamble
 
-I am neither physicist, nor mathematician, I am just an engineer. Yet I believe that laws of nature must be reducible to a very simple set of rules - with proper formalism. In my view, the current frontier physics and mathematics is super complex, deviates from experimental verifiability and generates confusions, misunderstandings and paradoxes. Rather than trying to understand the current theories, I am trying to build a simple model of the universe from scratch. I am not trying to prove or disprove anything, just to see if I can get some of the known physical laws as emergent properties from a minimal set of simple rules.
+I am neither physicist, nor mathematician, I am just an engineer. Yet I believe that laws of nature must be reducible to a very simple set of rules - with proper formalism. In my view, the current mainstream physics and mathematics is super complex, deviates from experimental verifiability and generates confusions, misunderstandings and paradoxes. Rather than trying to utilize the high-level theories, I am trying to build a simple model of the universe from scratch. I am not trying to prove or disprove anything, just to see if I can get some of the known physical laws as emergent properties from a minimal set of simple rules.
 
 ## Inspirations and principles behind
 
@@ -26,7 +26,7 @@ The simulation is built around my idea of replacing **fields** in physics with *
 
 ## Expected outcomes (wish list)
 
-In the following sections, I will escribe the expected outcomes within different physical contextes. The list is not exhaustive and I am open to any suggestions. Everything is written from hands-on engineer's perspective, so excuse me if I am not using improper terminology, mixing things up or minsunderstanding some of the concepts.
+In the following sections, I will describe the expected simulation outcomes within different physical contextes. The list is not exhaustive and I am open to any suggestions. Everything is written from hands-on engineer's perspective, so please excuse me if I am using improper terminology, mixing things up or minsunderstanding some of the concepts.
 
 ### Must have: ELECTROMAGNETISM and SPECIAL RELATIVITY
 

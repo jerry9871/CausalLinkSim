@@ -39,11 +39,11 @@ In the following sections, I will describe the expected simulation outcomes with
 ### Nice to get: INERTIA and ROTATING REFERENCE FRAME
 
 - I adhere to Mach's principle: The inertia of a particle is determined by the distribution of all other particles in the universe.
-- Inertia is an emergent phenomenon from the particles and their interactions, and it follows similar rules as the electrostatic force. Particles are inertially coupled to each other with finite speed of causality.
+- Inertia is an emergent phenomenon from the particles and their interactions, and it follows similar rules as the electrostatic force. Particles are **inertially coupled** to each other with finite speed of causality.
 - The particle has no hidden variable to hold its momentum, because that would require a reference frame. Each causal link has it's own momentum-like equivalent state. State vector is a property the causal link, rather than of the particle itself.
 - Inertial coupling is not scalar, but vectorial; otherwise "a spinning skater wouldn't feel the centrifugal force". It wouldn't be possible to explain the Coriolis effect, which is also a result of the inertial coupling.
-- The claim of GR that spacetime geometry becomes flat Minkowski spacetime far from massive objects is to be questioned. The stress tensor and cosomological constant may be ill defined (my claim).
-- Dark matter and dark energy are apparent and the observed discrepancies stems from misunderstandings of how inertia and gravity works.
+- The claim of GR that spacetime geometry becomes flat Minkowski spacetime far from massive objects is to be questioned. The stress tensor and cosomological constant may be ill defined (my claim). The further away from the massive objects, the further the stretching of the causal links and the lesser the inertial coupling. The spacetime geometry is not flat by default, but rather anti de Sitter-like.
+- Dark matter and dark energy are apparent and the observed discrepancies stems from misunderstandings of how inertia and gravity works and from the questioned presumption of the flat spacetime geometry.
 
 ### Super nice to get: GRAVITY and GENERAL RELATIVITY
 
@@ -51,7 +51,7 @@ In the following sections, I will describe the expected simulation outcomes with
 - Space density gradient around massive objects is perceived as acceleration, because "true" acceleration makes the object to experience space gradient in the direction of accleration. This is the Einstein's equivalence principle refined for our needs and not needing time as a coordinate.
 - Curvature of spacetime emerges from arrangement of the causal links (causality propagating null trajectories). Particle density (mass) gradient translates into the causal links stretching in the direction of the gradient.
 - Acceleration between two particles makes a wavefront in their causal link. If the causal link goes through an event horizon, the wavefront is steeper than the speed of causality, and the causal link tears down.
-- The giant laser interferometers (LIGO, VIRGO) work because the proper distance between the mirrors is changing as the wave propagetes (https://arxiv.org/pdf/gr-qc/0702079,https://physics.stackexchange.com/questions/699759/searching-for-an-intuitive-explanation-about-how-gravitational-waves-can-be-de), since the mirrors are accelerated by tidal forces due to the space density gradient. Gravitational waves should be demonstrated in the simulation as the result of inertial coupling.
+- The giant laser interferometers (LIGO, VIRGO) work because the proper distance between the mirrors is changing as the wave propagetes (https://arxiv.org/pdf/gr-qc/0702079,https://physics.stackexchange.com/questions/699759/searching-for-an-intuitive-explanation-about-how-gravitational-waves-can-be-de), since the mirrors are accelerated by tidal forces due to the propagating space density gradient, not by the static space density (because that applies to the proper distances as well as to the light speed, cancelling the measurable effect out). Gravitational waves should be demonstrated in the simulation hereby as the result of inertial coupling.
 
 ### Super wild and nice to get: QUANTUM MECHANICS
 

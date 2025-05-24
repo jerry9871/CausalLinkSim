@@ -3,14 +3,16 @@
 
 #define WINDOW_WIDTH 1000
 #define WINDOW_HEIGHT 800
-#define NPARTICLES 2
+#define NPARTICLES 5
 #define CAUSAL_LINK_LENGTH  1500
 
 struct causal_link {
 	int length;
 	double last_distance;
+	double m;
 	double mx[CAUSAL_LINK_LENGTH];
 	double my[CAUSAL_LINK_LENGTH];
+
 	double mr[CAUSAL_LINK_LENGTH];
 };
 
@@ -22,7 +24,7 @@ struct particle {
 	double ax;
 	double ay;
 	double charge;
-	double inertia;
+	double mass;
 
 	//vis
 	double em;
@@ -63,16 +65,16 @@ init_scene1()
 		double me = 0.01;
 		//The proton-to-electron mass ratio is approximately 1,836.15. This means a proton is about 1,836 times more massive than an electron, despite having the same magnitude of electric charge.
 		particles[i].charge = (i & 1) ? 1 : -1;
-		particles[i].inertia = (i & 1) ? (me / 1836) : me;
+		particles[i].mass = me; //(i & 1) ? (me / 1836) : me;
 	}
 
-#define WIGGLING 0
+#define WIGGLING 1
 
 	for (int i = 0; i < WIGGLING; i++) {
 		particles[i].y = WINDOW_HEIGHT / 2;
 		particles[i].x = 8 * i + WINDOW_WIDTH / 2;
 
-		particles[i].inertia = 0.1;
+		//particles[i].mass = 0.1;
 	}
 
 }
@@ -248,8 +250,8 @@ main(int argc, char* argv[])
 					double tx = l->mx[k];
 					double ty = l->my[k];
 
-					if (q->charge < 0)
-						tx = -tx, ty = -ty;
+					//if (q->charge < 0)
+					//tx = -tx, ty = -ty;
 
 					double d = sqrt(tx * tx + ty * ty);
 					tx = p->x + k * tx / d;
@@ -313,9 +315,9 @@ main(int argc, char* argv[])
 				diffx /= distance * distance;
 				diffy /= distance * distance;
 
-				// scale action according to the charge
-				diffx *= q->charge;
-				diffy *= q->charge;
+				// scale action according to the property
+				diffx *= q->mass;
+				diffy *= q->mass;
 
 				// spread insertion across two buffer spaces
 				int index = distance;
@@ -333,18 +335,34 @@ main(int argc, char* argv[])
 				double ty = (l->my[0] + l->my[1]) / 2;
 				double tf = (l->mr[0] + l->mr[1]) / 2;
 
-				//accumulate action
-				ax += tx;
-				ay += ty;
-
 				double d = sqrt(tx * tx + ty * ty);
 
 				if (d == 0)
 					continue;
 
+				//initialize link momentum if not set
+				if (!l->m)
+					l->m = d;
+
+				//accumulate inertial coupling (without tf)
+				//ix -= (d - l->m) * tx / d / p->mass;
+				//iy -= (d - l->m) * ty / d / p->mass;
+
+
+				ix -= tx * (1 - l->m / d) / p->mass;
+				iy -= ty * (1 - l->m / d) / p->mass;
+
+
+
+
+
 				//accumulate inertial coupling
-				ix += tf * tx / d;
-				iy += tf * ty / d;
+				//ix += (tf * tx / d) * 0.5;
+				//iy += (tf * ty / d) * 0.5;
+
+				//accumulate action
+				//ax += tx;
+				//ay += ty;
 			}
 
 			//calculate resulting action force
@@ -353,8 +371,8 @@ main(int argc, char* argv[])
 
 			if (0) {
 				//integrate force into speed
-				p->dx -= ax * dt * p->inertia;
-				p->dy -= ay * dt * p->inertia;
+				p->dx -= ax * dt * p->mass;
+				p->dy -= ay * dt * p->mass;
 
 				//hard-limit the speed to speed of causality (absolute frame - get rid of!)
 				//TODO figure out how inertia works !

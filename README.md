@@ -15,10 +15,10 @@ I am neither physicist, nor mathematician, I am just an engineer. Yet I believe 
 
 ## Inspirations and principles behind
 
-The simulation is built around my idea of replacing **fields** in physics with **causal links**. I define the causal link is a fundamental, unilateral, non-physical coupling relation along which the interaction propagates. A **particle** is a potentiality, that manifests itself into physical existence. Spacetime is the observable metric emerging from the NxN causal link network. Further principles I follow are:
+I start from a postulate that the existence is relational. Whatever exists _has to_ interact with something else, and that is the very definition of existence. I furthermore state that the relation is directional and causal, meaning that the existence of a single component of reality can influence another and vice versa. Entities that do not fulfill these criteria are excluded from our reality. The next postulate is that the causality propagation speed is finite and forms a basis of what we perceive as space time container. The simulation is built around my idea of replacing **fields** in physics with **causal links**. I define the causal link is a fundamental, unilateral, non-physical coupling relation along which the interaction propagates. A **particle** is a potentiality, that manifests itself into physical existence. Spacetime is the observable metric emerging from the NxN causal link network. Further principles I follow are:
 
-- Causality is fundamental and "speed" of causality is constant and finite.
 - Everything only exists in relation to eveyryhing else. Without relation, there is no existence in spacetime and existence loses meaning.
+- Causality is fundamental and "speed" of causality is constant and finite.
 - Block universe doesn't exist and the future is not determined. Observers can't agree on simultaneity and time manifests itself as evolution of the causal links locally.
 - Time is not intertwined with space as a dimension, rather it's just the **fundamental causality metric** of space.
 - The common notion of a "field" is non-physical in the same way as hereby defined causal link is non-physical, because physicists defined the field as a potentiality for interaction.
@@ -42,7 +42,7 @@ In the following sections, I will describe the expected simulation outcomes with
 
 - I adhere to Mach's principle: The inertia of a particle is determined by the distribution of all other particles in the universe. Intertia is the fundamental and defining property of space.
 - Inertia is an emergent phenomenon from the particles and their interactions, and it follows similar rules as the electrostatic force. Particles are **inertially coupled** to each other with finite speed of causality.
-- The particle has no hidden variable to hold its momentum, because that would require a reference frame. Each causal link has it's own momentum-like equivalent state. State vector is a property the causal link, rather than of the particle itself.
+- The particle has no hidden variable to hold its momentum, because that would require an independent reference frame. Each causal link has it's own momentum-like equivalent state. State vector is a property the causal link, rather than of the particle itself.
 - Inertial coupling is not scalar, but vectorial; otherwise "a spinning skater wouldn't feel the centrifugal force". It wouldn't be possible to explain the Coriolis effect, which is also a result of the inertial coupling.
 - The claim of GR that spacetime geometry becomes flat Minkowski spacetime far from massive objects is to be questioned. The stress tensor and cosomological constant may be ill defined (my claim). The further away from the massive objects, the further the stretching of the causal links and the lesser the inertial coupling. The spacetime geometry is not flat by default, but rather anti de Sitter-like.
 - Dark matter and dark energy are apparent and the observed discrepancies stems from misunderstandings of how inertia and gravity works and from the questioned presumption of the flat spacetime geometry.
@@ -62,8 +62,8 @@ In the following sections, I will describe the expected simulation outcomes with
 
 - Electrostatic force is a fundamental property of the particle (fermion) and its charge (Gauss's law) and the action quanta (boson) are distributed across causal links (my claim).
 - The particle is not a point, but a potentiality for interaction. Causal link is as fundamental as the particle itself, or more. Space is a container for fermionic particles (endings of the causal links), and the links live in the quantum substrate.
-- Causal links replace bosons - mediators of the interaction. They themselves are not causaly linked to anything. This reflets the facts that in conventional theory, bosons always travel at the speed of light along null trajectories and they are not observed as particles.
-- Does the discreteness of causal links cause the quantum effects we observe in spacetime?
+- Causal links replace bosons - mediators of the interaction. They themselves are not causaly linked to anything. This reflects the facts that in conventional theory, bosons always travel at the speed of light along null trajectories and they are not observed as particles.
+- Does the discreteness of causal links cause the quantum effects we observe in spacetime? Can we recreate e.g. the double slit experiment with causal links? We would have to demonstrate the experiment for both bosons and fermions. Since bosons are just waves in the causal link propagation, the diffraction would probably spontaneously arise around endges comparable to the wavelength, so one side of the causal link is blocked, yielding to diffraction / interference from multiple slits. However, how about fermions? We can't accelerate a fermion to c but the de Broglie frequency is nonzero only when a particle is moving and this may be result from advanced / retarded wavefront of a moving particle. This mechanism could manifest into wave-like behavior of massive particles that are conventionaly demonstrated in wave-particle duality in conventional quantum menchanics.
 - By applying a variant of gaguge theory to the causal links (close to the end), can we obtain the strong and weak nuclear forces?
 - Transactional interpretation of quantum mechanics? Is my proposal version of the John Wheeler's absorber theory? This theory involves a backward popagation. Recently they added mechanism of handshake between particles through offer waves, etc. Result of the handshake is the decission on where the quantum will be delivered. Can we implement this in the simulation? Currently, we deliver the action everywhere homogenously.
 - I see virtual immediate action at the beginning of the causal link and symmetricity of propagation. Can the causal link be the mechanism of quantum entanglement?
@@ -71,8 +71,8 @@ In the following sections, I will describe the expected simulation outcomes with
 
 ## Acknowledgements
 
-- **Channels and podcasts:** Independent Physics, Dialect, Chris The Brain, Theories of Everything, Vsauce, Veritasium, 3Blue1Brown, Kurzgesagt, PBS Space Time
-- **Current physicists:** Sabine Hossenfelder, Roger Penrose, Ruth Kastner, Jacob Barandes, Lee Smolin, Carlo Rovelli, Robert Laughlin, Avshalom Elitzur
+- **Channels and podcasts:** Sabine Hossenfelder, Independent Physics, Dialect, Chris The Brain, Theories of Everything, Vsauce, Veritasium, 3Blue1Brown, Kurzgesagt, Closer to Truth, PBS Space Time
+- **Physicists and philosophers:** Alfred North Whitehead, John Wheeler, Roger Penrose, Ruth Kastner, Jacob Barandes, Lee Smolin, Carlo Rovelli, Robert Laughlin, Avshalom Elitzur
 
 ## License
 

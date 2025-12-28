@@ -29,7 +29,7 @@ struct particle {
 	//vis
 	double em;
 
-    //whitehead: 'physical prehension'
+	//whitehead: 'physical prehension', or in GR: particle's 'light cone'
 	//zero index defines the moment when the information reaches the particle
 	struct causal_link links[NPARTICLES];
 
@@ -366,7 +366,7 @@ main(int argc, char* argv[])
 				//ay += ty;
 			}
 
-            //actualization
+			//actualization
 			//calculate resulting action force
 			ax *= p->charge;
 			ay *= p->charge;

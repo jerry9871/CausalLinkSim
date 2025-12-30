@@ -46,7 +46,7 @@ In the following sections, I will describe the expected simulation outcomes with
 
 ### Must have: ELECTROMAGNETISM and SPECIAL RELATIVITY
 
-- Electrostatic force is a property of the particle and its charge (Gauss's law) and the action quanta are distributed across causal links (my claim).
+- Electrostatic force is a (quasi-fundamental) property of the particle and its charge (Gauss's law) and the action quanta are distributed across causal links (my claim).
 - Length contraction is emergent phenomena observed within the massive particles and their causal interactions, due to the advanced/retarded interaction delivery along the causal links.
 - The Lorentz invariance (statement that fundamental laws are the same for all inertial observers) is implicit, since we do not require any reference frame and / or the field to propagate in. The causal link speed is isotropic in the frame reference of the receiver entity.
 - A light clock moving at constant speed relative to a stationary observer will appear to tick slower due to advanced/retarded wavefront delivery along the causal links. Within the Twin paradox concept, the total tick count accumulated by a non-inertial clock will be less than the stationary clock at reunion, as predicted by the conventional theory. This is due to the combined effect of advanced/retarded wavefront and the inertial coupling (to be shown). A hint can be found in the Dialect video, where they demonstrated that twin paradox can be explained without the need for isotropy of the speed of light, effectively demonstrating that the Lorentz's Original Ether Theory is sufficient to explain the effect.
@@ -61,7 +61,7 @@ In the following sections, I will describe the expected simulation outcomes with
 - Inertial coupling is not scalar, but vectorial; otherwise "a spinning skater wouldn't feel the centrifugal force". It wouldn't be possible to explain the Coriolis effect, which is also a result of the inertial coupling.
 - I believe that so called "anisotropic inertia", resulting from Machian gravity models, is to be expected, because distribution of inertial potential is corellated with the space curvature - therefore, the measurement apparatus is covariant with the strength of inertia and "stretching/density" of emergent spacetime. This was argued by Dicke and is relevant to the variable gravitational constant in Brans-Dicke theory of gravity.
 - The claim of GR that spacetime geometry becomes flat Minkowski spacetime far from massive objects is to be questioned. The stress tensor and cosomological constant may be ill defined (my claim). The further away from the massive objects, the further the stretching of the causal links and the lesser the inertial coupling. The spacetime geometry is only flat as long as the matter distribution is homogeneous. Flatness of spacetime and the homogeneity of matter are complementary. Philosophically I believe that without matter, there is no space, therefore matter "generates space", rather than "bends space" as claimed in GR.
-- Dark matter and dark energy are apparent and the observed discrepancies stems from misunderstandings of how inertia and gravity works and from the questioned presumption of the flat spacetime geometry.
+- Dark matter and dark energy are apparent and the observed discrepancies stems from misunderstandings of how inertia and gravity works and from the questioned presumption of the flat Minkowski spacetime geometry.
 - Sky Darmos claims that the gravity constant is not proportional to the mass, but to the number of particles. Can that be relevant for this attempt?
 - In SR, momentum and energy are frame-dependent; rest mass is invariant. Therefore, each causal link has it's own momentum-like equivalent state. State vector is a property the causal link, rather than of the particle itself. (TODO -verify this claim - depends on the final implementation!)
 
@@ -103,7 +103,7 @@ Step C: The Time Derivative ($\frac{d}{dt} \mathbf{P}_i$) ...
   $$\text{Scale of time} \times \text{Scale of space} = \sqrt{1 - \frac{2GM}{r}} \cdot \frac{1}{\sqrt{1 - \frac{2GM}{r}}} = 1.$$
 
   - Time dilation is the result of compressed space around massive objects, which causes the local particles to move slower from external observer's perspective. Even the cesium resonator has to cover different amount of space in each oscillation period in stretched/compresssed space, therefore, the ticking will appear to run at different rate to a distant observer.
-  - Inertia (resistence to change motion) is axiomatically the resistence towards locally perceived space compression in the direction of acceleration. The compression gradient around massive objects is perceived as acceleration (version of the Einstein's equivalence principle). These gravitational effects are explained through geodesics in GR, but for my model, **without time as fourth dimension**, we can demonstate that in space-space manifold, the object moving perpendicular to the space compression gradient is efectively perceiving less space along his motion direction, which compensates for the space compression gradient and results in the expected orbital motion.
+  - Inertia (resistence to change motion) is axiomatically the resistence towards locally perceived space compression in the direction of acceleration. The compression gradient around massive objects is perceived as acceleration (version of the Einstein's equivalence principle). These gravitational effects are explained through geodesics in GR, but for my model, **without time as fourth dimension**, we can demonstate that in space-space manifold, the object moving perpendicular to the space compression gradient is efectively "perceiving less space density" along his motion direction, which compensates for the space compression gradient and results in the expected orbital motion.
   - The perihelion precession and the Lense–Thirring frame dragging effect of Kerr metric in rotating black hole with non-zero time-to-space transformation components is yet to be properly understood within this context and reduced manifold without time should still preserve a reduced **diffeomorphism invariance**. I believe that Mach's principle is relevant here and the vectorial inertial coupling is the key in my model. The massive components of a rotating object simply experience centripetal acceleration, which generates a "vortex" in the inertial coupling, yielding into the frame dragging effect. This problem is essentially similar to the spining skater relative to the rest of the universe.
 
 - I will show that GR's model of curved spacetime emerges from arrangement of the causal links (discrete inertial information propagating along null trajectories). Particle density (mass) gradient translates into the causal links stretching in the direction of the gradient, yielding into the curvature description.
@@ -141,15 +141,15 @@ Jaromir Dvorak, jery9871@gmail.com
 ## What the sim is able to demonstrate now (milestones)
 
 - [x] ELECTROMAGNETISM and SPECIAL RELATIVITY
-- [ ] INERTIA and ROTATING REFERENCE FRAME
-- [ ] GRAVITY and GENERAL RELATIVITY
+- [ ] INERTIA, GRAVITY and ROTATING REFERENCE FRAME
+- [ ] GENERAL RELATIVITY
 - [ ] QUANTUM MECHANICS
 
 ---
 
 #### Inertia & Gravity merger 2 (probably will not be used)
 
-It is said to be rotationally and translationally invariant, but the 'problem' is that it produces anisotropic inertia. Is it really a problem for us? Treder (1972) wrote a variant with scalar inertia, but not rotationally invariant:
+Schrodinger's Langrangian to implement Mach's principle is said to be rotationally and translationally invariant, but the 'problem' is that it produces anisotropic inertia. Is it really a problem for us? Treder (1972) wrote a variant with scalar inertia, but not rotationally invariant:
 
 $$L_{ij} = \delta \frac{m_i m_j}{c^2 r_{ij}} \mathbf{v}_{ij}^2 - \frac{m_i m_j}{r_{ij}},$$
 

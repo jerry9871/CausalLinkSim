@@ -17,7 +17,7 @@ I am neither physicist, nor mathematician, I am just an engineer. Yet I believe 
 
 Recently, I noticed emerging neo-Lorentzian theories (Independent Physics group, Dialect, etc. showed compelling intuitive ways how to explain relativistics effects with aether. They even seem to suceed to combine GR with Aether / curved / flowing space). The key insight is that once broken down, these aren't really competing physical theories - they're different interpretations of the same mathematical framework. Believing or not believing in Aether is therefore a matter of choice as it can not be proven / disproven experimentaly, at least for now. Rather than aether, I choose **relationality and causality** as a fundaments for my model. I start from a postulate that the existence is relational. Whatever exists _has to_ interact with something else, and that is the very definition of existence. I furthermore state that the relation is directional and causal, meaning that the existence of a single component of reality can influence another and vice versa. Entities that do not fulfill these criteria would be excluded from reality. The next postulate is that the causality propagation forms a metric of what we perceive as space-time container. There have been many attempts to refute space-time as being fundamental, with varying adherance to rigorosity / philosophical belief. I got inspirations from:
 
-- **Felix Finster's causal fermion systems** - reverses the attempt of trying to fit wave functions and quantum operators into space-time, but states that the wave functions are ontological primitives and space-time is emergent. In his theory, fermions (massive particles subjected to Pauli's exclusion principle) are fundamental building blocks of reality, and their causal interaction produces the space-time container. This is very similar to what I am trying to show here, but, he is a rigorous mathematician and he starts with quantum theory postulates. I will not attempt to pretend to understand his work. I will ultimately hope to emerge some quantum effects from discrete computations in my model.
+- **Felix Finster's causal fermion systems** - reverses the attempt of trying to fit wave functions and quantum operators into space-time, but states that the wave functions are ontological primitives and space-time is emergent. In his theory, fermions (massive particles subjected to Pauli's exclusion principle) are fundamental building blocks of reality, and their causal interaction produces the space-time container. This is very similar to what I am trying to show here (emerge spacetime from causal interaction between entities), but, he is a rigorous mathematician and he starts with quantum theory postulates. I will not attempt to pretend to understand his work. I will ultimately hope to emerge some quantum effects from discrete computations in my model.
 
 - **Stephen Wolfram's Wolfram Physics project** - he disputes that the universe must follow rules described by differential equations and suggests that the base of reality may be computation. He creates a concept of 'ruliad' which is a set of all possible computational rules and arguments about computational irreducibility is responsible for phenomenons such as entropy, free will, disputing superdeterminism and so on. He frequently uses expressions such as "universe updates itself" and so on. On top of those postulates he builds a causal hypergraph from which the space time emerges. I will again not attempt to pretent to understand deeply what he is doing, I just adhere to the idea that the universe may not be governed by continuous differential equations.
 
@@ -27,8 +27,8 @@ The simulation is built around my idea of replacing **fields** in physics with *
 
 The fundamental principles I follow **(relationality and causality)**:
 
-- Every entity manifests its existence by exchanging information with other entities. Three-dimensional space emerges from the causal coupling between entities and is the observable metric emerging from the NxN causal link network. Time is a local phenomenon and a **complementary metric**, needed to define causal relation / update rate.
-- Each entity constatnly receives discrete information from coupled entities (at a constant "speed" in its own reference frame), actualizes itself and then broadcasts its actualized state towards other coupled entities.
+- Every entity manifests its existence by exchanging information with other entities. Three-dimensional space emerges from the causal coupling between entities and is the observable metric emerging from the NxN causal link network. Time is a local phenomenon and a **complementary metric**, necessary to define update continuity in causal propagation.
+- Each entity constatnly receives discrete information from coupled entities (at a constant "speed", perceived as local time accumulation, in its own reference frame), actualizes itself and then broadcasts its actualized state towards other coupled entities.
 
 Immediately yielding disputes of mainstream representation **('field', block universe / time as a dimension)**:
 
@@ -49,54 +49,51 @@ In the following sections, I will describe the expected simulation outcomes with
 - Magnetism is the time rotation of the electrostatic force vector manifested on a charged particle, when observed as contribution from every nearby moving charged particle (Faraday's law in simple terms) - TODO verify if this reflect's to the actual law and if contribution from every single charged particle yields to the law VS the epxlanation using relativistic length contraction
 - Light and other electromagnetic waves are emergent properties of the particles and their causal interactions. The combined effect of vector actions propagating along advanced/retarded causality wavefront yields to the perpendicular electric and magnetic propagating fields along null trajectories.
 
-### Nice to have: GRAVITY, INERTIA, and ROTATING REFERENCE FRAME
+### Nice to have: GRAVITY, INERTIA, and forces in ROTATING REFERENCE FRAME
 
-- I adhere to Mach's principle: The inertia of a particle is determined by the distribution of all other particles in the universe, in both senses: (1) inertial constant motion and (2) inertial forces. The Foucault pendulum and Newton's bucket experiment will show relative to the distant stars, not to an absolute (curved/flat) space.
-- Inertia is an emergent phenomenon from the particles and their interactions, and it follows similar rules as the electrostatic force. Particles are **inertially coupled** to each other with finite speed of causality.
+- I adhere to Mach's principle: The inertia of a particle is determined by the distribution of all other particles in the universe, in both senses: (1) inertial constant motion and (2) inertial forces. The Foucault pendulum and Newton's bucket experiment will show relative to the distant stars (argued by Mach), not to an absolute (curved/flat) space (suggested by Newton).
+- Inertia, as the resistance to acceleration, is ultimately postulated, and not derived in nearly all mainstream theories up to this day. I would like to show that inertia is an emergent phenomenon from the particles and their interactions. Particles are **inertially coupled** to each other with finite "speed" of causality.
 - Inertial coupling is not scalar, but vectorial; otherwise "a spinning skater wouldn't feel the centrifugal force". It wouldn't be possible to explain the Coriolis effect, which is also a result of the inertial coupling.
-- The claim of GR that spacetime geometry becomes flat Minkowski spacetime far from massive objects is to be questioned. The stress tensor and cosomological constant may be ill defined (my claim). The further away from the massive objects, the further the stretching of the causal links and the lesser the inertial coupling. The spacetime geometry is only flat as long as the matter distribution is homogeneous. Flatness of spacetime and the homogeneity of matter are complementary.
-- In SR, momentum and energy are frame-dependent; rest mass is invariant. Therefore, each causal link has it's own momentum-like equivalent state. State vector is a property the causal link, rather than of the particle itself. (TODO -verify this claim - depends on the final implementation!)
+- I believe that so called "anisotropic inertia", resulting from Machian gravity models, is to be expected, because distribution of inertial potential is corellated with the space curvature - therefore, the measurement apparatus is covariant with the strength of inertia and "stretching/density" of emergent spacetime. This was argued by Dicke and is relevant to the variable gravitational constant in Brans-Dicke theory of gravity.
+- The claim of GR that spacetime geometry becomes flat Minkowski spacetime far from massive objects is to be questioned. The stress tensor and cosomological constant may be ill defined (my claim). The further away from the massive objects, the further the stretching of the causal links and the lesser the inertial coupling. The spacetime geometry is only flat as long as the matter distribution is homogeneous. Flatness of spacetime and the homogeneity of matter are complementary. Philosophically I believe that without matter, there is no space, therefore matter "generates space", rather than "bends space" as claimed in GR.
 - Dark matter and dark energy are apparent and the observed discrepancies stems from misunderstandings of how inertia and gravity works and from the questioned presumption of the flat spacetime geometry.
 - Sky Darmos claims that the gravity constant is not proportional to the mass, but to the number of particles. Can that be relevant for this attempt?
+- In SR, momentum and energy are frame-dependent; rest mass is invariant. Therefore, each causal link has it's own momentum-like equivalent state. State vector is a property the causal link, rather than of the particle itself. (TODO -verify this claim - depends on the final implementation!)
 
-#### Inertia & Gravity merger
+#### Inertia & Gravity merger (inspired by https://jonathanfay.com and https://derprimer.de/gravinertia/)
 
-https://derprimer.de/gravinertia/
-"Mach’s principle requires that only relative quantities are included in the describing equations. Such Lagrange function was first proposed by Hans-Jürgen Treder in his ‘Inertia-free mechanics’":
+"Mach’s principle requires that only relative quantities are included in the describing equations." Schrodinger (1925) was first to write the Lagrangian of any two interacting particles and for the universe:
 
-$$L = T - V = \sum_{i>j} \frac{Gm_i m_j}{r_{ij}}\left(1 + \mu\frac{v_{ij}^2}{c^2}\right).$$
+$$L_{ij} = \delta \frac{m_i m_j}{r_{ij}c^2} \dot{r}_{ij}^2 - \frac{m_i m_j}{r_{ij}}, \qquad L = \sum_{i < j} \left( \frac{\delta m_i m_j}{c^2 r_{ij}} \dot{r}_{ij}^2 - \frac{m_i m_j}{r_{ij}} \right)$$
 
-Motion equations from Denis Braun's website (note that the quantities seem absolute again, but let's presume they are referred to each particle's reference frame):
+In the most simplistic example, the equation of motion for the radial separation $r$ in single particle pair is:
 
-$$\frac{2\varphi_i m_i}{c^2} \frac{\partial \mathbf{v}_i}{\partial t} = \nabla_i \varphi_i + \frac{2}{c} \frac{\partial \mathbf{A}_i}{\partial t},$$
+$$\ddot{r} = \frac{1}{2r} \left( \dot{r}^2 + \frac{c^2}{\delta} \right)$$
 
-With scalar and vectorial potentials:
+To get a full motion equations, we need to solve the **Euler-Lagrange equation** for particle $i$:
 
-$$\varphi_i = \sum_{j \neq i} \frac{m_j}{r_{ij}}, \qquad \mathbf{A}_i = \sum_{j \neq i} \frac{m_j \boldsymbol{\beta}_j}{r_{ij}}.$$
+$$\frac{d}{dt} \underbrace{ \left( \frac{\partial L}{\partial \mathbf{v}_i} \right)}_{\text{Momentum } \mathbf{P}_i} = \underbrace{\frac{\partial L}{\partial \mathbf{r}_i}}_{\text{Generalized Force}}$$
 
-#### How to simulate
+Let's define the geometry before differentiation:
 
-First, modify the first equation to work with Beta (dimensionless speed in v/c):
+- Vector distance: $\mathbf{r}_{ij} = \mathbf{r}_i - \mathbf{r}_j$
+- Unit vector: $\hat{\mathbf{n}}_{ij} = \frac{\mathbf{r}_{ij}}{r_{ij}}$ (Points from $j$ to $i$)
+- Relative Velocity: $\mathbf{v}_{ij} = \mathbf{v}_i - \mathbf{v}_j$
+- Radial Velocity scalar: $\dot{r}_{ij} = \hat{\mathbf{n}}_{ij} \cdot \mathbf{v}_{ij}$
 
-$$\frac{2\varphi_i m_i}{c} \frac{\partial \boldsymbol{\beta}_i}{\partial t} = \nabla_i \varphi_i + \frac{2}{c} \frac{\partial \mathbf{A}_i}{\partial t}$$
+Using the chain rule: $\frac{\partial (\dot{r}_{ij}^2)}{\partial \mathbf{v}_i} = 2 \dot{r}_{ij} \frac{\partial \dot{r}_{ij}}{\partial \mathbf{v}_i}$ and from our geometric definition, $\frac{\partial \dot{r}_{ij}}{\partial \mathbf{v}_i} = \hat{\mathbf{n}}_{ij}$, we derive the momentum:
 
-Replace partial time derivatives with dot notion:
+$$\mathbf{P}_i = \sum_{j \neq i} \left( \frac{2\delta m_i m_j}{c^2 r_{ij}} \dot{r}_{ij} \right) \hat{\mathbf{n}}_{ij}$$
 
-$$\frac{2\varphi_i m_i}{c} \dot{\boldsymbol{\beta}}_i = \nabla_i \varphi_i + \frac{2}{c} \dot{\mathbf{A}}_i$$
+**Physical Meaning:** The momentum of particle $i$ is a sum of vectors pointing along the lines to all other particles $j$, weighted by how fast they are moving towards/away from each other.
 
-Rearrange so that only the speed differentiation stays on the left side:
-
-$$\dot{\boldsymbol{\beta}}_i = \frac{1}{\varphi_i m_i}\left(\frac{c}{2} \nabla_i \varphi_i + \dot{\mathbf{A}}_i\right)$$
-
-Assuming r_ij and m_i do not contribute to the differentiation, differentiate only the velocities and substitute the scalar potential:
-
-$$\dot{\boldsymbol{\beta}}_i = \frac{1}{\varphi_i m_i}\left(\frac{c}{2} \nabla_i \varphi_i + \sum_{j \neq i} \frac{m_j \dot{\boldsymbol{\beta}}_j}{r_{ij}}\right)$$
+Step C: The Time Derivative ($\frac{d}{dt} \mathbf{P}_i$) ...
 
 ### Super nice to get: GENERAL RELATIVITY
 
 - GR introduces 4D spacetime manifold defined by mass distribution, as a powerful model to evaluate observer-independent spacetime intervals, describe evolution through worldlines and motion of objects through geodesics. However, since time is the foruth dimension in this manifold, many paradoxes arise, such as the idea of static, block universe where past, present and future are equivalent. The "arrow of time" is not rooted in this model. See for exp. "the Andromeda paradox" and it's observer-dependent simultaneity confusion. I postulate that the time is not a coordinate, it is the causality metric of space. Accepting time as "emergence" and purely local phenomenon, devoiding from the block universe and from the necessity to accept observer-dependent simultaneity, I can show that replacing 4D spacetime manifold with 3D space-space manifold preserves the GR effects:
 
-  - In GR, **Volumetric scaleÂ ofÂ space Ã— ScaleÂ ofÂ time = 1**, which is true at least for any arbitrary, non-rotating Schwarzchild metric, meaning that space scale is enough to preserve the causality metric of time, and vice versa. This is analogous to the situation in SR, where the length contaction is complementary to the time dilation.
+  - In GR, **Volumetric scale of space times Scale of time = 1**, which is true at least for any arbitrary, non-rotating Schwarzchild metric, meaning that space scale is enough to preserve the causality metric of time, and vice versa. This is analogous to the situation in SR, where the length contaction is complementary to the time dilation.
 
   $$\text{Scale of time} \times \text{Scale of space} = \sqrt{1 - \frac{2GM}{r}} \cdot \frac{1}{\sqrt{1 - \frac{2GM}{r}}} = 1.$$
 
@@ -142,3 +139,43 @@ Jaromir Dvorak, jery9871@gmail.com
 - [ ] INERTIA and ROTATING REFERENCE FRAME
 - [ ] GRAVITY and GENERAL RELATIVITY
 - [ ] QUANTUM MECHANICS
+
+---
+
+#### Inertia & Gravity merger 2 (probably will not be used)
+
+It is said to be rotationally and translationally invariant, but the 'problem' is that it produces anisotropic inertia. Is it really a problem for us? Treder (1972) wrote a variant with scalar inertia, but not rotationally invariant:
+
+$$L_{ij} = \delta \frac{m_i m_j}{c^2 r_{ij}} \mathbf{v}_{ij}^2 - \frac{m_i m_j}{r_{ij}},$$
+
+Denis Braun adopted Teder's model: "Such Lagrange function was first proposed by Hans-Jürgen Treder in his ‘Inertia-free mechanics’":
+
+$$L = T - V = \sum_{i>j} \frac{Gm_i m_j}{r_{ij}}\left(1 + \mu\frac{v_{ij}^2}{c^2}\right).$$
+
+Motion equations from Denis Braun's website (note that the quantities seem absolute again, but let's presume they are referred to each particle's reference frame):
+
+$$\frac{2\varphi_i m_i}{c^2} \frac{\partial \mathbf{v}_i}{\partial t} = \nabla_i \varphi_i + \frac{2}{c} \frac{\partial \mathbf{A}_i}{\partial t},$$
+
+Where phi_i and A_i are scalar and vectorial potentials:
+
+$$\varphi_i = \sum_{j \neq i} \frac{m_j}{r_{ij}}, \qquad \mathbf{A}_i = \sum_{j \neq i} \frac{m_j \boldsymbol{\beta}_j}{r_{ij}}.$$
+
+#### Now, how make simulation from this?
+
+First, modify the first equation to work with Beta (dimensionless speed in v/c):
+
+$$\frac{2\varphi_i m_i}{c} \frac{\partial \boldsymbol{\beta}_i}{\partial t} = \nabla_i \varphi_i + \frac{2}{c} \frac{\partial \mathbf{A}_i}{\partial t}$$
+
+Rearrange so that only the speed differentiation stays on the left side and replace partial time derivative with dot notion:
+
+$$\dot{\boldsymbol{\beta}}_i = \frac{1}{\varphi_i m_i}\left(\frac{c}{2} \nabla_i \varphi_i + \frac{\partial \mathbf{A}_i}{\partial t}\right)$$
+
+Assuming r_ij and m_j do not contribute to the differentiation (constants), differentiate the velocities in the vector potential and evaluate nabla operator to get scalar potential:
+
+$$\nabla_i \varphi_i = -\sum_{j \neq i} \frac{m_j \mathbf{r}_{ij}}{r_{ij}^3}, \qquad \frac{\partial \mathbf{A}_i}{\partial t} =  \sum_{j \neq i} \frac{m_j \dot{\boldsymbol{\beta}}_j}{r_{ij}}$$
+
+Substitute and simplify:
+
+$$\dot{\boldsymbol{\beta}}_i = \frac{1}{\varphi_i m_i}\sum_{j \neq i} m_j \left(\frac{\dot{\boldsymbol{\beta}}_j}{r_{ij}} -  \frac{c \mathbf{r}_{ij}}{2 r_{ij}^3}  \right)$$
+
+---

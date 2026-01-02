@@ -17,11 +17,15 @@ Rather than extending the existing high-level theories, I am trying to build a s
 
 ## Inspirations and philosophical principles behind
 
-Recently, I noticed emerging neo-Lorentzian theories (Independent Physics group, Dialect, etc. showed compelling intuitive ways how to explain relativistics effects with aether. They even seem to suceed to combine GR with Aether / curved / flowing space). The key insight is that once broken down, these aren't really competing physical theories - they're different interpretations of the same mathematical framework. Believing or not believing in Aether is therefore a matter of choice as it can not be proven / disproven experimentaly, at least for now. This project aligns with the process philosophy tradition and relational approaches to physics. Rather than aether, I choose **relationality and causality** as a fundaments for my model. I start from a postulate that the existence is relational. Whatever exists _has to_ interact with something else, and that is the very definition of existence. I furthermore state that the relation is directional and causal, meaning that the existence of a single component of reality can influence another and vice versa. Entities that do not fulfill these criteria would be excluded from reality. The next postulate is that the causality propagation forms a metric of what we perceive as space-time container. There have been many attempts to refute space-time as being fundamental, with varying adherance to rigorosity / philosophical belief. I got inspirations from:
+Recently, I noticed that newly emerging neo-Lorentzian theories keep showing compeling intuitive ways how to explain relativistics effects with aether. They even show that effects associated with GR can be explained with flowing space / variable/anisotropic speed of light. To justify presence of a fundamentally unobservable, absolutely referenced medium, those theories must postulate the covariance of measurement apparatus (which is inherently the same situation as with curved spacetime in GR), in order to satisfy the covariance principle requirement (all experiments produce th same results for all inertial observers). The key insight is that once broken down, these aren't really competing physical theories, they're different interpretations of the same mathematical framework. Believing or not believing in Aether is therefore a matter of choice. Absolute reference frame dismissal by general relativity can be viewed as a natural consensus steaming from occam's razor principle.
+
+However, GR's claim that **flat space-time exists irrespectively from presence of matter** is the subject for questioning here. This project aligns with the process philosophy tradition and relational approaches to physics. I choose **relationality and causality** as fundamentals for my model. I start from a postulate that the existence is relational. Whatever exists _has to_ interact with something else (and that is the very definition of existence). I furthermore state that the relation is directional and causal, meaning that the existence of a single component of reality can influence another and vice versa. Entities that do not fulfill these criteria would be excluded from reality. The next postulate is that the causal relation emerges into a metric that we perceive as space-time container.
+
+There have been many attempts to refute space-time as being fundamental, with varying adherance to rigorosity / philosophical belief. I got inspirations from:
 
 - **Felix Finster's causal fermion systems** - reverses the attempt of trying to fit wave functions and quantum operators into space-time, but states that the wave functions are ontological primitives and space-time is emergent. In his theory, fermions (massive particles subjected to Pauli's exclusion principle) are fundamental building blocks of reality, and their causal interaction produces the space-time container. This is very similar to what I am trying to show here (emerge spacetime from causal interaction between entities), but, he is a rigorous mathematician and he starts with quantum theory postulates. I will not attempt to pretend to understand his work. I will ultimately hope to emerge some quantum effects from discrete computations in my model.
 
-- **Stephen Wolfram's Wolfram Physics project** - he disputes that the universe must follow rules described by differential equations and suggests that the base of reality may be computation. He creates a concept of 'ruliad' which is a set of all possible computational rules and arguments about computational irreducibility is responsible for phenomenons such as entropy, free will, disputing superdeterminism and so on. He frequently uses expressions such as "universe updates itself" and so on. On top of those postulates he builds a causal hypergraph from which the space time emerges. I will again not attempt to pretent to understand deeply what he is doing, I just adhere to the idea that the universe may not be governed by continuous differential equations.
+- **Stephen Wolfram's Wolfram Physics project** - he disputes that the universe must follow rules described by differential equations and suggests that the base of reality may be computation. He creates a concept of 'ruliad' which is a set of all possible computational rules and arguments about computational irreducibility is responsible for phenomenons such as entropy, free will, disputing superdeterminism and so on. He frequently uses expressions such as "universe updates itself" and so on. On top of those postulates he builds a causal hypergraph from which the space time emerges. I will again not attempt to pretent to understand deeply what he is doing, I just borrow the idea that the universe may not be governed by continuous differential equations.
 
 - **Philosophy streams** - I like the relativists, process philosophy and putting information at the core of reality. Alfred North Whitehead and 'event' based reality, Ernst Mach and hypothesis that inertia is not intrinsic, or John Wheeler and 'it from bit'. Recent idealists worth noting pioneered by Alan Watts, Bernardo Kastrup, Donald Hoffmann, and philosophers of physics such as Jonathan Fay, or Jacob Barandes.
 
@@ -29,22 +33,20 @@ Recently, I noticed emerging neo-Lorentzian theories (Independent Physics group,
 
 As the model fundaments, I choose:
 
-- **relationality** Every entity manifests its existence by exchanging information with other entities. Three-dimensional space emerges from the causal coupling between entities and is the observable metric emerging from the NxN causal link network. Time is a local phenomenon and a **complementary metric**, necessary to define update continuity in causal propagation.
-- **causality** Each entity constatnly receives discrete information from coupled entities (at a constant "speed", perceived as local time accumulation, in its own reference frame), actualizes itself and then broadcasts its actualized state towards other coupled entities.
+- **relationality** Every entity manifests its existence by exchanging information with other entities. Three-dimensional space emerges from the causal coupling between entities and comes out of the observable metric emerging from the NxN causal link network. Time is a local phenomenon and a **complementary metric**, necessary to define update continuity in causal propagation.
+- **causality** Each entity receives stream of (discrete) information from coupled entities (at a constant "speed", perceived as local time accumulation, in its own reference frame), actualizes itself and then broadcasts its actualized state towards other coupled entities.
 
-Resulting philosophical disputes of mainstream representation:
+The simulation is built around **causal links** between entities. I define the causal link is an unilateral coupling relation along which the interaction propagates. An aggregate of all adjacent causal links will be called the **light cone**. An entity, or a **particle** is a potentiality, that manifests itself into physical existence through interaction. Resulting philosophical disputes of mainstream representation:
 
-- **Time is not a dimension**, but a local metric necessary to define update continuity in causal propagation.
-- **The "field" is a mathematical construct**, not ontologically grounded. It is defined as a potentiality for interaction and it's prevalent usage in current physics yields to confusions, as no other existential proof of a "field" has been shown other than through potentiality for interaction, therefore, not granting any more ontological grounding to the field than to my causal link.
-- **Block universe in GR is a mathematical construct**, not ontologically grounded. The future and past does not exist simultaneously, neither the observer-dependent 'slice of simultaneity' does. Space and time manifests itself locally, as a present moment - result of evolution of the causal, informational influence aggregates for every coupled entity.
-
-The simulation is built by replacing **fields** in physics with **causal links**. A "field" of any kind requires its own, usually independent reference frame and a metric in spacetime. I am reversing the order, and state that the field descriptions (requiring an objective metrics) and their reference frames are emergent. I define the causal link is an unilateral coupling relation along which the interaction propagates. An aggregate of all adjacent causal links will be called the **light cone**. An entity, or a **particle** is a potentiality, that manifests itself into physical existence.
+- **Matter doesn't just curve space**, but relationship between matter and space is fully reciprocal. Although representing spacetime as an independent void is and always has been extremely methodologically sucessful, it also roots the platora of paradoxes and misunderstandings. To avoid those problems, I choose to view space as a metric defining relationship between constituents of matter and energy, therefore: no matter (energy) -> no space, and vice versa. Inertia and gravity are complementary and Flat Minkowski space-time far from heavy object is to be falsified.
+- **The "field" is a mathematical construct**, not ontologically grounded. A "field" of any kind requires a reference frame and a metric in spacetime. I am reversing the order, and state that the field descriptions (requiring an objective metrics) and their reference frames are emergent. It is defined as a potentiality for interaction and it's prevalent usage in current physics yields to confusions, as no other existential proof of a "field" has been shown other than through potentiality for interaction, therefore, not granting any more ontological grounding to the field than to my causal link.
+- **Block universe in GR is a mathematical construct**, not ontologically grounded. The future and past does not exist simultaneously, neither the observer-dependent 'slice of simultaneity' does. Space and time manifests itself locally, as a present moment - result of evolution of the causal, informational influence aggregates for every coupled entity. **Time is not a dimension, but a local metric necessary to define update continuity in causal propagation.**
 
 ## Expected outcomes (wish list)
 
 In the following sections, I will describe the expected simulation outcomes within different physical contextes. The list is not exhaustive and I am open to any suggestions. Everything is written from hands-on engineer's perspective, so please excuse me if I am using improper terminology, mixing things up or minsunderstanding some of the concepts.
 
-### Must have: ELECTROMAGNETISM and SPECIAL RELATIVITY
+### Must have: ELECTROMAGNETISM and SPECIAL RELATIVITY\*\*
 
 - Electrostatic force is a (quasi-fundamental) property of the particle and its charge (Gauss's law) and the action quanta are distributed across causal links (my claim).
 - Length contraction is emergent phenomena observed within the massive particles and their causal interactions, due to the advanced/retarded interaction delivery along the causal links.
@@ -71,28 +73,71 @@ In the following sections, I will describe the expected simulation outcomes with
 
 $$L_{ij} = \delta \frac{m_i m_j}{r_{ij}c^2} \dot{r}_{ij}^2 - \frac{m_i m_j}{r_{ij}}, \qquad L = \sum_{i < j} \left( \frac{\delta m_i m_j}{c^2 r_{ij}} \dot{r}_{ij}^2 - \frac{m_i m_j}{r_{ij}} \right)$$
 
+To maintain the principle for further calculations, let's define the geometry in relative quantities:
+
+- **Distance vector**: $\mathbf{r}_{ij} = \mathbf{r}_i - \mathbf{r}_j$
+- **Velocity vector**: $\mathbf{v}_{ij} = \mathbf{v}_i - \mathbf{v}_j = \dot{\mathbf{r}_i} - \dot{\mathbf{r}_j} = \dot{\mathbf{r}_{ij}}$
+- **Acceleration vector**: $\mathbf{a}_{ij} = \mathbf{a}_i - \mathbf{a}_j = \ddot{\mathbf{r}_i} - \ddot{\mathbf{r}_j} = \ddot{\mathbf{r}_{ij}}$
+- **Unit vector**: $\hat{\mathbf{n}}_{ij} = \frac{\mathbf{r}_{ij}}{|\mathbf{r}_{ij}|}$
+- Radial distance: $r_{ij} = |\mathbf{r}_{ij}|$
+- Radial velocity: $\dot{r}_{ij} = \hat{\mathbf{n}}_{ij} \cdot \mathbf{v}_{ij}$ (dot product needed to extract radial component)
+- Radial acceleration: $\ddot{r}_{ij} = \frac{d}{dt} \left( \hat{\mathbf{n}}_{ij} \cdot \mathbf{v}_{ij} \right) = \hat{\mathbf{n}}_{ij} \cdot  \mathbf{a}_{ij}  + \frac{\left( \mathbf{v}_{ij} \cdot \mathbf{v}_{ij} \right) - \dot{r}_{ij}^2}{r_{ij}}$ (dot product needed to extract radial component, differentiation has to account for tangential components)
+
 In the most simplistic example, the equation of motion for the radial separation $r$ in single particle pair is:
 
-$$\ddot{r} = \frac{1}{2r} \left( \dot{r}^2 + \frac{c^2}{\delta} \right)$$
+$$\ddot{r_{ij}} = \frac{1}{2r_{ij}} \left( \dot{r_{ij}}^2 + \frac{c^2}{\delta} \right)$$
 
-To get a full motion equations, we need to solve the **Euler-Lagrange equation** for particle $i$:
+However, to get a full motion equations, we need to solve the **Euler-Lagrange equation** for particle $i$:
 
 $$\frac{d}{dt} \underbrace{ \left( \frac{\partial L}{\partial \mathbf{v}_i} \right)}_{\text{Momentum } \mathbf{P}_i} = \underbrace{\frac{\partial L}{\partial \mathbf{r}_i}}_{\text{Generalized Force}}$$
 
-Let's define the geometry before differentiation:
+---
 
-- Vector distance: $\mathbf{r}_{ij} = \mathbf{r}_i - \mathbf{r}_j$
-- Unit vector: $\hat{\mathbf{n}}_{ij} = \frac{\mathbf{r}_{ij}}{r_{ij}}$ (Points from $j$ to $i$)
-- Relative Velocity: $\mathbf{v}_{ij} = \mathbf{v}_i - \mathbf{v}_j$
-- Radial Velocity scalar: $\dot{r}_{ij} = \hat{\mathbf{n}}_{ij} \cdot \mathbf{v}_{ij}$
-
-Using the chain rule: $\frac{\partial (\dot{r}_{ij}^2)}{\partial \mathbf{v}_i} = 2 \dot{r}_{ij} \frac{\partial \dot{r}_{ij}}{\partial \mathbf{v}_i}$ and from our geometric definition, $\frac{\partial \dot{r}_{ij}}{\partial \mathbf{v}_i} = \hat{\mathbf{n}}_{ij}$, we derive the momentum:
+Let's begin with deriving the momentum. Using the chain rule: $\frac{\partial (\dot{r}_{ij}^2)}{\partial \mathbf{v}_i} = 2 \dot{r}_{ij} \frac{\partial \dot{r}_{ij}}{\partial \mathbf{v}_i}$, and from our geometric definition of our radial velocity, we get $\frac{\partial \dot{r}_{ij}}{\partial \mathbf{v}_i} = \frac{\partial \hat{\mathbf{n}}_{ij} \cdot ( \mathbf{v}_i - \mathbf{v}_j ) }{\partial \mathbf{v}_i} = \hat{\mathbf{n}}_{ij}$, and the potential term $\frac{m_i m_j}{r_{ij}}$ has no velocity, so it disappears, let's derive the total momentum:
 
 $$\mathbf{P}_i = \sum_{j \neq i} \left( \frac{2\delta m_i m_j}{c^2 r_{ij}} \dot{r}_{ij} \right) \hat{\mathbf{n}}_{ij}$$
 
-**Physical Meaning:** The momentum of particle $i$ is a sum of vectors pointing along the lines to all other particles $j$, weighted by how fast they are moving towards/away from each other.
+**Physical Meaning:** The momentum of particle $i$ is a sum of vectors pointing along the lines to all other particles $j$, weighted by how fast they are moving towards/away from each other. To get the left-hand side, calculate the time derivative of the momentum ($r_{ij}$, $\dot{r}_{ij}$, and $\hat{\mathbf{n}}_{ij}$ ALL change with time). Let's use the product rule on the term in brackets $[ \dots ]$:
 
-Step C: The Time Derivative ($\frac{d}{dt} \mathbf{P}_i$) ...
+$$
+\frac{d\mathbf{P}_i}{dt} = \sum_{j \neq i} \frac{2\delta m_i m_j}{c^2} \frac{d}{dt} \left[ \frac{\dot{r}_{ij} \hat{\mathbf{n}}_{ij}}{r_{ij}} \right]
+= \sum_{j \neq i} \frac{2\delta m_i m_j}{c^2} \left[ \frac{\ddot{r}_{ij} \hat{\mathbf{n}}_{ij}}{r_{ij}} + \frac{\dot{r}_{ij} \dot{\hat{\mathbf{n}}}_{ij}}{r_{ij}} - \frac{\dot{r}_{ij}^2 \hat{\mathbf{n}}_{ij}}{r_{ij}^2} \right]
+= \sum_{j \neq i} \frac{2\delta m_i m_j}{c^2 r_{ij}} \left[ \ddot{r}_{ij} \hat{\mathbf{n}}_{ij} + \dot{r}_{ij} \dot{\hat{\mathbf{n}}}_{ij} - \frac{\dot{r}_{ij}^2 \hat{\mathbf{n}}_{ij}}{r_{ij}} \right]
+$$
+
+Substituting radial acceleartion from our geometric definitions:
+
+$$
+\frac{d\mathbf{P}_i}{dt}
+
+= \sum_{j \neq i} \frac{2\delta m_i m_j}{c^2 r_{ij}} \left[ \left(\hat{\mathbf{n}}_{ij} \cdot  \mathbf{a}_{ij}  + \frac{\left( \mathbf{v}_{ij} \cdot \mathbf{v}_{ij} \right) - \dot{r}_{ij}^2}{r_{ij}} \right) \hat{\mathbf{n}}_{ij} + \dot{r}_{ij} \dot{\hat{\mathbf{n}}}_{ij} - \frac{\dot{r}_{ij}^2 \hat{\mathbf{n}}_{ij}}{r_{ij}} \right]
+
+= \sum_{j \neq i} \frac{2\delta m_i m_j}{c^2 r_{ij}} \left[ \hat{\mathbf{n}}_{ij} \cdot  \mathbf{a}_{ij} \hat{\mathbf{n}}_{ij}  + \frac{\left( \mathbf{v}_{ij} \cdot \mathbf{v}_{ij} \right) - 2\dot{r}_{ij}^2}{r_{ij}} \hat{\mathbf{n}}_{ij}  + \dot{r}_{ij} \dot{\hat{\mathbf{n}}}_{ij}  \right]
+$$
+
+Or using the identity $\dot{\hat{\mathbf{n}}}_{ij} = \frac{\mathbf{v}_{ij} - \dot{r}_{ij}\hat{\mathbf{n}}_{ij}}{r_{ij}}$, we can substitute $\dot{r}_{ij} \dot{\hat{\mathbf{n}}}_{ij}$ :
+
+$$\frac{d\mathbf{P}_i}{dt} = \sum \frac{2\delta m_i m_j}{c^2 r_{ij}} \left[ \ddot{r}_{ij} \hat{\mathbf{n}}_{ij} + \frac{\dot{r}_{ij} \mathbf{v}_{ij} - \dot{r}_{ij}^2 \hat{\mathbf{n}}_{ij}}{r_{ij}} - \frac{\dot{r}_{ij}^2 \hat{\mathbf{n}}_{ij}}{r_{ij}} \right] = \sum \frac{\delta m_i m_j}{c^2 r_{ij}^2} \left[ 2r_{ij} \ddot{r}_{ij} \hat{\mathbf{n}}_{ij} + 2\dot{r}_{ij} \mathbf{v}_{ij} - 4\dot{r}_{ij}^2 \hat{\mathbf{n}}_{ij} \right]$$
+
+---
+
+Now, to get the Generalized Force ($\frac{\partial L}{\partial \mathbf{r}_i}$), differentiate $L$ with respect to position $\mathbf{r}_i$. Derivative of Potential term:
+
+$$\frac{\partial}{\partial \mathbf{r}_i} (-\frac{m_i m_j}{r_{ij}}) = \frac{m_i m_j}{r_{ij}^2} \hat{\mathbf{n}}_{ij}$$
+
+Derivative of Kinetic term is more complex because $\mathbf{r}_i$ changes both the magnitude $1/r$ and the direction inside $\dot{r}$:
+
+$$\frac{\partial}{\partial \mathbf{r}_i} \left( \frac{\dot{r}_{ij}^2}{r_{ij}} \right) = \left( -\frac{\dot{r}_{ij}^2}{r_{ij}^2} \hat{\mathbf{n}}_{ij} \right) + \left( \frac{2\dot{r}_{ij} \mathbf{v}_{ij}}{r_{ij}^2} - \frac{2\dot{r}_{ij}^2 \hat{\mathbf{n}}_{ij}}{r_{ij}^2} \right) = \frac{1}{r_{ij}^2} \left( 2\dot{r}_{ij} \mathbf{v}_{ij} - 3\dot{r}_{ij}^2 \hat{\mathbf{n}}_{ij} \right)$$
+
+?The Generalized force is then:
+
+$$\frac{\partial L}{\partial \mathbf{r}_i} = \sum_{j \neq i} \left[ \frac{m_i m_j}{r_{ij}^2} \hat{\mathbf{n}}_{ij} + \frac{\delta m_i m_j}{c^2 r_{ij}^2} \left( 2\dot{r}_{ij} \mathbf{v}_{ij} - 3\dot{r}_{ij}^2 \hat{\mathbf{n}}_{ij} \right) \right]$$
+
+---
+
+The total motion equation:
+
+$$\sum_{j \neq i} \underbrace{\frac{2\delta m_i m_j}{c^2 r_{ij}} \left[ \hat{\mathbf{n}}_{ij} \cdot \left( \mathbf{a}_i - \mathbf{a}_j \right) \right] \hat{\mathbf{n}}_{ij}}_{\text{Inductive Inertia (LHS)}} = \sum_{j \neq i} \left( \underbrace{\frac{m_i m_j}{r_{ij}^2}}_{\text{Static Force}} + \underbrace{\frac{\delta m_i m_j \dot{r}_{ij}^2}{c^2 r_{ij}^2}}_{\text{Weber Velocity Force}} \right) \hat{\mathbf{n}}_{ij}$$
 
 ### Super nice to get: GENERAL RELATIVITY
 

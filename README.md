@@ -67,7 +67,7 @@ In the following sections, I will describe the expected simulation outcomes with
 - Sky Darmos claims that the gravity constant is not proportional to the mass, but to the number of particles. Can that be relevant for this attempt?
 - In SR, momentum and energy are frame-dependent; rest mass is invariant. Therefore, each causal link has it's own momentum-like equivalent state. State vector is a property the causal link, rather than of the particle itself. (TODO -verify this claim - depends on the final implementation!)
 
-#### Inertia & Gravity merger (inspired by https://jonathanfay.com and https://derprimer.de/gravinertia/)
+#### Inertia & Gravity merger (inspired by https://jonathanfay.com, https://derprimer.de/gravinertia/, Relational Mechanics (A.K.T. Assis, 1999))
 
 "Mach’s principle requires that only relative quantities are included in the describing equations." Schrodinger (1925) was first to write the Lagrangian of any two interacting particles and for the universe:
 
@@ -105,17 +105,7 @@ $$
 = \sum_{j \neq i} \frac{2\delta m_i m_j}{c^2 r_{ij}} \left[ \ddot{r}_{ij} \hat{\mathbf{n}}_{ij} + \dot{r}_{ij} \dot{\hat{\mathbf{n}}}_{ij} - \frac{\dot{r}_{ij}^2 \hat{\mathbf{n}}_{ij}}{r_{ij}} \right]
 $$
 
-Substituting radial acceleartion from our geometric definitions:
-
-$$
-\frac{d\mathbf{P}_i}{dt}
-
-= \sum_{j \neq i} \frac{2\delta m_i m_j}{c^2 r_{ij}} \left[ \left(\hat{\mathbf{n}}_{ij} \cdot  \mathbf{a}_{ij}  + \frac{\left( \mathbf{v}_{ij} \cdot \mathbf{v}_{ij} \right) - \dot{r}_{ij}^2}{r_{ij}} \right) \hat{\mathbf{n}}_{ij} + \dot{r}_{ij} \dot{\hat{\mathbf{n}}}_{ij} - \frac{\dot{r}_{ij}^2 \hat{\mathbf{n}}_{ij}}{r_{ij}} \right]
-
-= \sum_{j \neq i} \frac{2\delta m_i m_j}{c^2 r_{ij}} \left[ \hat{\mathbf{n}}_{ij} \cdot  \mathbf{a}_{ij} \hat{\mathbf{n}}_{ij}  + \frac{\left( \mathbf{v}_{ij} \cdot \mathbf{v}_{ij} \right) - 2\dot{r}_{ij}^2}{r_{ij}} \hat{\mathbf{n}}_{ij}  + \dot{r}_{ij} \dot{\hat{\mathbf{n}}}_{ij}  \right]
-$$
-
-Or using the identity $\dot{\hat{\mathbf{n}}}_{ij} = \frac{\mathbf{v}_{ij} - \dot{r}_{ij}\hat{\mathbf{n}}_{ij}}{r_{ij}}$, we can substitute $\dot{r}_{ij} \dot{\hat{\mathbf{n}}}_{ij}$ :
+Using the identity $\dot{\hat{\mathbf{n}}}_{ij} = \frac{\mathbf{v}_{ij} - \dot{r}_{ij}\hat{\mathbf{n}}_{ij}}{r_{ij}}$, we can substitute $\dot{r}_{ij} \dot{\hat{\mathbf{n}}}_{ij}$ :
 
 $$\frac{d\mathbf{P}_i}{dt} = \sum \frac{2\delta m_i m_j}{c^2 r_{ij}} \left[ \ddot{r}_{ij} \hat{\mathbf{n}}_{ij} + \frac{\dot{r}_{ij} \mathbf{v}_{ij} - \dot{r}_{ij}^2 \hat{\mathbf{n}}_{ij}}{r_{ij}} - \frac{\dot{r}_{ij}^2 \hat{\mathbf{n}}_{ij}}{r_{ij}} \right] = \sum \frac{\delta m_i m_j}{c^2 r_{ij}^2} \left[ 2r_{ij} \ddot{r}_{ij} \hat{\mathbf{n}}_{ij} + 2\dot{r}_{ij} \mathbf{v}_{ij} - 4\dot{r}_{ij}^2 \hat{\mathbf{n}}_{ij} \right]$$
 
@@ -129,7 +119,7 @@ Derivative of Kinetic term is more complex because $\mathbf{r}_i$ changes both t
 
 $$\frac{\partial}{\partial \mathbf{r}_i} \left( \frac{\dot{r}_{ij}^2}{r_{ij}} \right) = \left( -\frac{\dot{r}_{ij}^2}{r_{ij}^2} \hat{\mathbf{n}}_{ij} \right) + \left( \frac{2\dot{r}_{ij} \mathbf{v}_{ij}}{r_{ij}^2} - \frac{2\dot{r}_{ij}^2 \hat{\mathbf{n}}_{ij}}{r_{ij}^2} \right) = \frac{1}{r_{ij}^2} \left( 2\dot{r}_{ij} \mathbf{v}_{ij} - 3\dot{r}_{ij}^2 \hat{\mathbf{n}}_{ij} \right)$$
 
-?The Generalized force is then:
+The Generalized force is then:
 
 $$\frac{\partial L}{\partial \mathbf{r}_i} = \sum_{j \neq i} \left[ \frac{m_i m_j}{r_{ij}^2} \hat{\mathbf{n}}_{ij} + \frac{\delta m_i m_j}{c^2 r_{ij}^2} \left( 2\dot{r}_{ij} \mathbf{v}_{ij} - 3\dot{r}_{ij}^2 \hat{\mathbf{n}}_{ij} \right) \right]$$
 
@@ -138,6 +128,25 @@ $$\frac{\partial L}{\partial \mathbf{r}_i} = \sum_{j \neq i} \left[ \frac{m_i m_
 The total motion equation:
 
 $$\sum_{j \neq i} \underbrace{\frac{2\delta m_i m_j}{c^2 r_{ij}} \left[ \hat{\mathbf{n}}_{ij} \cdot \left( \mathbf{a}_i - \mathbf{a}_j \right) \right] \hat{\mathbf{n}}_{ij}}_{\text{Inductive Inertia (LHS)}} = \sum_{j \neq i} \left( \underbrace{\frac{m_i m_j}{r_{ij}^2}}_{\text{Static Force}} + \underbrace{\frac{\delta m_i m_j \dot{r}_{ij}^2}{c^2 r_{ij}^2}}_{\text{Weber Velocity Force}} \right) \hat{\mathbf{n}}_{ij}$$
+
+Final step for solving the equations numerically: To isolate the acceleration, we need to introduce tensor product:
+
+$$
+\underbrace{\left( \sum_{j \neq i} \frac{2\delta m_i m_j}{c^2 r_{ij}} \left( \hat{\mathbf{n}}_{ij} \otimes \hat{\mathbf{n}}_{ij} \right) \right) }_{\text{Self Inertial Mass term}}\mathbf{a}_i
+-\underbrace{\sum_{j \neq i} \left( \frac{2\delta m_i m_j}{c^2 r_{ij}} \left( \hat{\mathbf{n}}_{ij} \otimes \hat{\mathbf{n}}_{ij} \right) \right) \mathbf{a}_j }_{\text{Inductive Acceleration terms}}
+= \sum_{j \neq i} \left( \underbrace{\frac{m_i m_j}{r_{ij}^2}}_{\text{Static Force}} + \underbrace{\frac{\delta m_i m_j \dot{r}_{ij}^2}{c^2 r_{ij}^2}}_{\text{Weber Velocity Force}} \right) \hat{\mathbf{n}}_{ij}
+$$
+
+This is the most fascinating part of this physics model. In standard Newtonian physics, Mass is a Scalar. If you have a mass of 10kg, it is 10kg whether you push it North, South, Up, or Down. Resistance to motion is isotropic (the same in all directions). In this Weber/Mach model, Inertia is a Tensor (that matrix we just built). The term $(\hat{\mathbf{n}} \otimes \hat{\mathbf{n}})$ acts as a Projection Operator. It says: "Particle $j$ only adds to the inertia of Particle $i$ along the line connecting them."
+
+Example: Imagine Particle $i$ is right next to a super-heavy star (Particle $j$).
+
+- If $i$ tries to accelerate towards the star, the term $\hat{\mathbf{n}} \cdot \mathbf{a}$ is large. The star exerts a huge "inductive force" resisting that acceleration. The effective mass is high.
+- If $i$ tries to accelerate perpendicular to the star (orbiting it), the term $\hat{\mathbf{n}} \cdot \mathbf{a}$ is zero! The star contributes zero inertia for that specific movement.
+
+So, the outer product $\hat{\mathbf{n}} \otimes \hat{\mathbf{n}}$ mathematically encodes the idea that inertia depends on the direction of motion relative to the rest of the universe.
+
+---
 
 ### Super nice to get: GENERAL RELATIVITY
 
@@ -229,3 +238,6 @@ Substitute and simplify:
 $$\dot{\boldsymbol{\beta}}_i = \frac{1}{\varphi_i m_i}\sum_{j \neq i} m_j \left(\frac{\dot{\boldsymbol{\beta}}_j}{r_{ij}} -  \frac{c \mathbf{r}_{ij}}{2 r_{ij}^3}  \right)$$
 
 ---
+
+$$
+$$

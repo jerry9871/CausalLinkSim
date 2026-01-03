@@ -36,7 +36,9 @@ As the model fundaments, I choose:
 - **relationality** Every entity manifests its existence by exchanging information with other entities. Three-dimensional space emerges from the causal coupling between entities and comes out of the observable metric emerging from the NxN causal link network. Time is a local phenomenon and a **complementary metric**, necessary to define update continuity in causal propagation.
 - **causality** Each entity receives stream of (discrete) information from coupled entities (at a constant "speed", perceived as local time accumulation, in its own reference frame), actualizes itself and then broadcasts its actualized state towards other coupled entities.
 
-The simulation is built around **causal links** between entities. I define the causal link is an unilateral coupling relation along which the interaction propagates. An aggregate of all adjacent causal links will be called the **light cone**. An entity, or a **particle** is a potentiality, that manifests itself into physical existence through interaction. Resulting philosophical disputes of mainstream representation:
+The simulation is built around **causal links** between entities. I define the causal link is an unilateral coupling relation along which the interaction propagates. An aggregate of all adjacent causal links will be called the **light cone** or **perceptive field**. A reality constituent, or a **particle** is a potentiality, that manifests itself into physical existence through asyncrhronous updates from received influences and distributes its new state to other entities. All constituents are connected together through a **non-physical hypergraph**.
+
+Resulting philosophical disputes of mainstream representation:
 
 - **Matter doesn't just curve space**, but relationship between matter and space is fully reciprocal. Although representing spacetime as an independent void is and always has been extremely methodologically sucessful, it also roots the platora of paradoxes and misunderstandings. To avoid those problems, I choose to view space as a metric defining relationship between constituents of matter and energy, therefore: no matter (energy) -> no space, and vice versa. Inertia and gravity are complementary and Flat Minkowski space-time far from heavy object is to be falsified.
 - **The "field" is a mathematical construct**, not ontologically grounded. A "field" of any kind requires a reference frame and a metric in spacetime. I am reversing the order, and state that the field descriptions (requiring an objective metrics) and their reference frames are emergent. It is defined as a potentiality for interaction and it's prevalent usage in current physics yields to confusions, as no other existential proof of a "field" has been shown other than through potentiality for interaction, therefore, not granting any more ontological grounding to the field than to my causal link.
@@ -64,10 +66,12 @@ In the following sections, I will describe the expected simulation outcomes with
 - I believe that so called "anisotropic inertia", resulting from Machian gravity models, is to be expected, because distribution of inertial potential is corellated with the space curvature - therefore, the measurement apparatus is covariant with the strength of inertia and "stretching/density" of emergent spacetime. This was argued by Dicke and is relevant to the variable gravitational constant in Brans-Dicke theory of gravity, where the variable gravity constant corresponds better to the ideas presented here.
 - The claim of GR that spacetime geometry becomes flat Minkowski spacetime far from massive objects is to be questioned. The further away from the massive objects, the further the stretching of the causal links and the lesser the inertial coupling. The spacetime geometry is only flat as long as the matter distribution is homogeneous. Flatness of spacetime and the homogeneity of matter are complementary. Philosophically I believe that without matter, there is no space, therefore matter "generates space", rather than "bends space" as claimed in GR.
 - Dark matter and dark energy are apparent and the observed discrepancies stems from misunderstandings of how inertia and gravity works and from the questioned presumption of the flat Minkowski spacetime geometry.
-- Sky Darmos claims that the gravity constant is not proportional to the mass, but to the number of particles. Can that be relevant for this attempt?
+- Sky Darmos claims that the gravity constant is not proportional to the mass, but to the number of particles. Can that be relevant for this attempt? Wouldn't his claim refute equivalence principle? He even shows how different elements fall at different rates, but his claim has been likely refuted by MICROSCOPE experiment.
 - In SR, momentum and energy are frame-dependent; rest mass is invariant. Therefore, each causal link has it's own momentum-like equivalent state. State vector is a property the causal link, rather than of the particle itself. (TODO -verify this claim - depends on the final implementation!)
 
 #### Inertia & Gravity merger (inspired by https://jonathanfay.com, https://derprimer.de/gravinertia/, Relational Mechanics (A.K.T. Assis, 1999))
+
+A complete rework of gravity in machian relativity: https://arxiv.org/pdf/2308.04503
 
 "Mach’s principle requires that only relative quantities are included in the describing equations." Schrodinger (1925) was first to write the Lagrangian of any two interacting particles and for the universe:
 
@@ -129,7 +133,7 @@ The total motion equation:
 
 $$\sum_{j \neq i} \underbrace{\frac{2\delta m_i m_j}{c^2 r_{ij}} \left[ \hat{\mathbf{n}}_{ij} \cdot \left( \mathbf{a}_i - \mathbf{a}_j \right) \right] \hat{\mathbf{n}}_{ij}}_{\text{Inductive Inertia (LHS)}} = \sum_{j \neq i} \left( \underbrace{\frac{m_i m_j}{r_{ij}^2}}_{\text{Static Force}} + \underbrace{\frac{\delta m_i m_j \dot{r}_{ij}^2}{c^2 r_{ij}^2}}_{\text{Weber Velocity Force}} \right) \hat{\mathbf{n}}_{ij}$$
 
-Final step for solving the equations numerically: To isolate the acceleration, we need to introduce tensor product:
+Final step for solving the equations numerically: To isolate the acceleration, we need to introduce tensor product (extracting dot product out):
 
 $$
 \underbrace{\left( \sum_{j \neq i} \frac{2\delta m_i m_j}{c^2 r_{ij}} \left( \hat{\mathbf{n}}_{ij} \otimes \hat{\mathbf{n}}_{ij} \right) \right) }_{\text{Self Inertial Mass term}}\mathbf{a}_i
@@ -145,6 +149,15 @@ Example: Imagine Particle $i$ is right next to a super-heavy star (Particle $j$)
 - If $i$ tries to accelerate perpendicular to the star (orbiting it), the term $\hat{\mathbf{n}} \cdot \mathbf{a}$ is zero! The star contributes zero inertia for that specific movement.
 
 So, the outer product $\hat{\mathbf{n}} \otimes \hat{\mathbf{n}}$ mathematically encodes the idea that inertia depends on the direction of motion relative to the rest of the universe.
+
+For our asynchronous "light-cone solver", let's rearrange the equation into discrete time-step Gauss-Seidel iteration:
+
+$$
+\underbrace{\left( \sum_{j \neq i} \frac{2\delta m_i m_j}{c^2 r_{ij}} \left( \hat{\mathbf{n}}_{ij} \otimes \hat{\mathbf{n}}_{ij} \right) \right) }_{\text{Self Inertial Mass term}}\mathbf{a}_{i_{next}}
+= \sum_{j \neq i} \left( \underbrace{\frac{m_i m_j}{r_{ij}^2}}_{\text{Static Force}} + \underbrace{\frac{\delta m_i m_j \dot{r}_{ij}^2}{c^2 r_{ij}^2}}_{\text{Weber Velocity Force}} + \underbrace{ \frac{2\delta m_i m_j}{c^2 r_{ij}} \left( \hat{\mathbf{n}}_{ij} \cdot \mathbf{a}_j  \right) }_{\text{Inductive Acceleration}} \right) \hat{\mathbf{n}}_{ij}
+$$
+
+however, we still need matrix division (according to gemini) on the left side. TODO figure out how to add contributions linearly, so they can be superposed on the input to the light cone.
 
 ---
 
